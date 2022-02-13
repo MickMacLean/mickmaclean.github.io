@@ -8,11 +8,15 @@ An investigation into photometric emissions of low-mass stellar objects via obse
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
-[Project 2 Title](/pdf/sample_presentation.pdf)
+### [Radio Astronomy Data Analysis](/pdf/sample_presentation.pdf)
+Analysing data from the Five College Radio Astronomical Observatory (FCRAO) to determine temperature of S140 molecular cloud.
+
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
-[Project 3 Title](http://example.com/)
+### [BTS Database Project](http://example.com/)
+An ongoing personal project to construct an encyclopedic database containing information for the 350+ songs in the discography of South Korean artists BTS.
+
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
