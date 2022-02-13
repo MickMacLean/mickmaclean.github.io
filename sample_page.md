@@ -1,6 +1,9 @@
 ## This can be your internal website page / project page
 
-**Project description:** Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+** An investigation into photometric emissions of low-mass stellar objects via observational data from the WIYN 0.9m optical telescope in Kitt Peak, AZ. **
+
+My research group at the Five College Astronomy Department took photometric images in the Hα wavelength (665nm), and Hα continuum narrowband (666nm), to provide us with data to study light curves produced by varying flux in the Hα band. I analyzed the morphology of such curves and comparing objects of different masses, ages, and disk types to deepen our understanding of how stellar and substellar objects in their earliest stages change over time
+Language: Python (pandas, numpy, matplotlib, photutils, astropy, scipy)
 
 ### 1. Suggest hypotheses about the causes of observed phenomena
 
