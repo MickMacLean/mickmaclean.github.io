@@ -6,6 +6,8 @@ My research group at the Five College Astronomy Department took photometric imag
 
 Language: Python (pandas, numpy, matplotlib, photutils, astropy, scipy)
 
+Primary skills: data cleaning, data pipeline creation, data visualization, data analysis (time domain analysis,)
+
 ### 1. Suggest hypotheses about the causes of observed phenomena
 
 Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
