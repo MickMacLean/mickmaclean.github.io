@@ -5,8 +5,6 @@
 ### [Optical Astronomy Research](/astro_1)
 An investigation into photometric emissions of low-mass stellar objects via observational data from the WIYN 0.9m optical telescope in Kitt Peak, AZ.
 
-Tools: Python (pandas, numpy, matplotlib, photutils, astropy, scipy)
-
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
