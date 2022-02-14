@@ -6,7 +6,7 @@ My research group at the Five College Astronomy Department took photometric imag
 
 Language: Python (pandas, numpy, matplotlib, photutils, astropy, scipy)
 
-Primary skills: data cleaning, data pipeline creation, data visualization, data analysis (time domain analysis,)
+Primary skills: data cleaning, data pipeline creation, data visualization, data analysis (time domain analysis,), data management
 
 ### 1. Suggest hypotheses about the causes of observed phenomena
 
