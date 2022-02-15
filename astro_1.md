@@ -76,6 +76,8 @@ sorting files: hard-coded sorting methods were used, as this is the simplest met
 
 ### Visualizations & Analysis
 
+<img src="images/dataspread.png" width=400>
+
 ### Results
 
 
