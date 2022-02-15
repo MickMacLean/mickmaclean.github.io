@@ -24,6 +24,8 @@ sorting files: hard-coded sorting methods were used, as this is the simplest met
   
 ```
 
+</details>
+  
 <details>
   <summary>View Code</summary>
   
