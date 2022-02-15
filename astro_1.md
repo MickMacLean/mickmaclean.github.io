@@ -17,11 +17,17 @@ Primary skills: data cleaning, data pipeline creation, data visualization, data 
 Images taken from telescopes need to be processed prior to analysis in order to calibrate and clean up intrinsic noise in the CCD.
 
 sorting files: hard-coded sorting methods were used, as this is the simplest method to organize the data
+<details>
+  <summary>View Code</summary>
+  
+``` 
+  
+```
 
 <details>
   <summary>View Code</summary>
-  ‘‘‘python
   
+``` 
   #define bias correction & subtraction function
   def bias_correction(filelist, path_to_bias):
     """
@@ -61,18 +67,14 @@ sorting files: hard-coded sorting methods were used, as this is the simplest met
         fits.writeto('b_' + filelist[ii],new_image, new_header, overwrite = True )
     print('Files bias subtracted and saved with prefix b_')
     return
- 
-  ‘‘‘
+  
+```
   
 </details>
 
 ### Visualizations & Analysis
 
-```javascript
-if (isAwesome){
-  return true
-}
-```
+### Results
 
 
 
