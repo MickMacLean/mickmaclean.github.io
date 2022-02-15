@@ -13,7 +13,7 @@ Primary skills: data cleaning, data pipeline creation, data visualization, data 
 ### The Data
 
 ### Data Reduction
-
+[code](/Mickey.py)
 Images taken from telescopes need to be processed prior to analysis in order to calibrate and clean up intrinsic noise in the CCD.
 
 sorting files: hard-coded sorting methods were used, as this is the simplest method to organize the data
