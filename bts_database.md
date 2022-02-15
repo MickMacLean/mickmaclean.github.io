@@ -10,20 +10,20 @@ Primary skills: data collection, data management, databases,
 
 ### The Data
 The data to be included for each song is as follows:
-  *Song title, English and Korean/Japanese
-  *Release date
-  *Album(s) on which it is included
-  *Writers
-  *Producers
-  *Choreographers
-  *Singers
-  *Genre
-  *Themes
-  *Remixes
-  *Awards, nominated and received 
-  *Performances, where and when
-  *Streams, first week and current
-  *Music video
+  - Song title, English and Korean/Japanese
+  - Release date
+  - Album(s) on which it is included
+  - Writers
+  - Producers
+  - Choreographers
+  - Singers
+  - Genre
+  - Themes
+  - Remixes
+  - Awards, nominated and received 
+  - Performances, where and when
+  - Streams, first week and current
+  - Music video
   
   Much of this data much be collected manually as there is no central site which contains all of the data to be included.
 
