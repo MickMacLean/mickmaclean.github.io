@@ -13,7 +13,6 @@ Primary skills: data cleaning, data pipeline creation, data visualization, data 
 ### The Data
 
 ### Data Reduction
-[code](/Mickey.py)
 Images taken from telescopes need to be processed prior to analysis in order to calibrate and clean up intrinsic noise in the CCD.
 
 sorting files: hard-coded sorting methods were used, as this is the simplest method to organize the data
@@ -79,7 +78,14 @@ sorting files: hard-coded sorting methods were used, as this is the simplest met
 <img src="images/dataspread.png" width=400>
 
 ### Results
+Mass
+lower mass = more variable activity, more sporatic and has higher range; this is anticipated due to the nature of lower mass objects
 
+Age
+younger objects = more active; older objects are finished accreting and stablized, their primary activity will be flares
+
+Disks
+more complete disk = more debris around object = more accretion and thus more activity
 
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
