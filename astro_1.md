@@ -11,19 +11,54 @@ Tools: Jupyter/Python (pandas, numpy, matplotlib, photutils, astropy, scipy), Ex
 Primary skills: data cleaning, data pipeline creation, data visualization, data analysis, data management
 
 ### The Data
+Comparing 2 regions of space: Praesepe, the Behive Cluster, and a section of the Taurus star-forming region.
+Praesepe hosts objects around 
+
+Over 300 raw files total; after reduction over 1300 files total. The final data set is reduced to 12 data points, 
+
+increased activity should be displayed as an increase in H-alpha, with no significant change in H-alpha “off”. This comparison rules out any random changes in the flux due to reasons other than accretion or activity, as H-alpha is the only one of the two bands that will display significant change in flux for these reasons.
+
+Data is also taken from Visier using the coordinates of the objects of interest (found via Astrometry) in the images taken. 
 
 ### Data Reduction
 Images taken from telescopes need to be processed prior to analysis in order to calibrate and clean up intrinsic noise in the CCD.
 
 sorting files: hard-coded sorting methods were used, as this is the simplest method to organize the data
 <details>
-  <summary>View Code</summary>
-  
-``` 
-  
-```
+  <summary>View Filesorter Function</summary>
 
-</details>
+```
+  def filesorter(filename, foldername, fitskeyword_to_check, keyword):
+    '''
+    This function takes input file and places it in a folder given if it is the correct type of fits file.
+    '''
+    # this checks if there is a file of that name already, if so then it moves onto the next step, otherwise
+    # tells you it does not exist.
+    if os.path.exists(filename):
+        pass
+    else:
+        print(filename + " does not exist or has already been moved.")
+        return
+    
+    header = fits.getheader(filename)
+    fits_type = header[keyword]
+    
+    # this checks that there is a folder of that name, and makes it if there is not
+    if os.path.exists(foldername):
+        pass
+    else:
+        print("Making new directory: " + foldername)
+        os.mkdir(foldername)
+    
+    # this checks that the file is the correct type of fits file and moves it to the folder if it is
+    if fits_type == fitskeyword_to_check:
+        destination = foldername + '/'
+        print("Moving " + filename + " to: ./" + destination + filename)
+        os.rename(filename, destination + filename)  
+    return
+  ```
+  
+  </details>
   
 <details>
   <summary>View Code</summary>
@@ -73,11 +108,12 @@ sorting files: hard-coded sorting methods were used, as this is the simplest met
   
 </details>
 
-### Visualizations & Analysis
+### Analysis
 
-<img src="images/dataspread.png" width=400>
 
 ### Results
+I successfully extracted relative flux data for 12 objects in Taurus and 24 in Praesepe (fig.1 below).
+
 Mass
 lower mass = more variable activity, more sporatic and has higher range; this is anticipated due to the nature of lower mass objects
 
@@ -86,6 +122,9 @@ younger objects = more active; older objects are finished accreting and stablize
 
 Disks
 more complete disk = more debris around object = more accretion and thus more activity
+
+### Figures
+<img src="images/dataspread.png" width=400>
 
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
