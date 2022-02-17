@@ -13,10 +13,10 @@ I also maintained a research blog throughout this project where I documented my 
 **Primary skills:** research, data cleaning, data pipeline development, data visualization, data analysis, data management
 
 
-### Scientific Overview for a Non-Scientific Audience
+### Scientific Overview for a Non-Scientific Audience/Motivation
 If you have no experience in astronomy, here are the basics of what you need to know about the scientific premis of this project.
 
-Clouds of gas and dust collapse under the gravitational pull of a newly formed stellar object; debris collects and begins to orbit the object as it falls to the surface. Instead of falling directly onto the star, this collected matter flattens and forms a disk around the object in order to preserve angular momentum; this is an accretion disk, and many young objects host them until they dissipate around 3Myrs of formation.
+Clouds of gas and dust collapse under the gravitational pull of a newly formed stellar object, and debris collects and begins to orbit the object as it falls towards the objects surface. Instead of falling directly onto the star, this collected matter flattens and forms a disk around the object in order to preserve angular momentum. This is an *accretion disk*, and many young objects host them until they dissipate around 3Myrs after initial formation.
 
 Ha wavelength is an indicator of stellar activity: chomospheric activity, flares, etc. changes in Ha flux directly indicate changes in activity. We can measure this by the flux or brightness of objects over time.
 
