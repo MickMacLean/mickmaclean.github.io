@@ -45,6 +45,10 @@ Standard data reduction procedure in optical wavelengths involves a process of b
 
 sorting files: hard-coded sorting methods were used, as this is the simplest method to organize the data
 
+<details>
+  <summary>View Filesorter Function</summary>
+  
+  
 ```
   def filesorter(filename, foldername, fitskeyword_to_check, keyword):
     '''
@@ -76,6 +80,8 @@ sorting files: hard-coded sorting methods were used, as this is the simplest met
     return
   ```
   
+  
+</details>
 
   
 <details>
