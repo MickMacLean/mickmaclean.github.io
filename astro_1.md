@@ -31,8 +31,8 @@ These data were taken in the Hα wavelength (665nm) and Hα continuum narrowband
 External data is also taken from the VisieR database in order to identify the known traits of these objects, including coordinates, known magnitudes, and disk types. 
 
 <p float="left">
-  <img src="images/Praesepe1.png" width=200 />
-  <img src="images/Screenshot (64).png" width=198 />
+  <img src="images/Praesepe1.png" width=300 />
+  <img src="images/Screenshot (64).png" width=298 />
 </p>
 Fig 1. Final reduced images of Praesepe (left) and Taurus (right) in Hα.
 
@@ -118,7 +118,7 @@ I successfully extracted relative flux data for 14 objects in Taurus and 19 in P
 <img src="images/dataspread.png" width=300>
 
 #### Mass (Spectral Type) & Age Affect on Activity
-<img src="images/final_comare.png" width=300>
+<img src="images/final_comare.png" width=500>
 
 This plot confirms several key concepts:
 - The maximum change in flux over for each night of each object is plotted based on their spectral type. Lower mass objects display higher variable activity on average, having a higher total range of change in flux.
@@ -128,12 +128,12 @@ This plot confirms several key concepts:
 #### Capturing Flare Activity
 
 <p float="left">
-  <img src="images/solarflareHa.png" width=200 />
-  <img src="images/solarflare.png" width=195 />
+  <img src="images/solarflareHa.png" width=300 />
+  <img src="images/solarflare.png" width=295 />
 </p>
 
 #### Mass (Spectral Type) vs. Disk Type
-<img src="images/disk_final.png" width=200>
+<img src="images/disk_final.png" width=400>
 
 For objects in Taurus, I plotted objects from least (no disk) to most (full disk) amount of debris surrounding and subsequently falling onto the surface of the object (external data from Visier).
 A more complete disk leads to more accretion and thus more activity, as the range of activity is highest for objects likely to be actively accreting. Accretion is a sporadic process, and thus a range of flux changes is expected.
