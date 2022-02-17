@@ -48,7 +48,7 @@ sorting files: hard-coded sorting methods were used, as this is the simplest met
 <details><summary>View Filesorter Function</summary>
 <p>
   
-```
+```python
 def filesorter(filename, foldername, fitskeyword_to_check, keyword):
     '''
     This function takes input file and places it in a folder given if it is the correct type of fits file.
