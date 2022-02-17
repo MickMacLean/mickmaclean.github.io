@@ -6,7 +6,7 @@ In collaboration with the Astro341 research group at Amherst College, I was invl
 
 The invesigation of this particular topic was explored with my research partner [Savio Oliveira](https://www.linkedin.com/in/savio-oliveira-astro/); I will only be presenting code and writing samples that are my own.
 
-I also maintained a research blog throughout this project where I documented my progress which you can find [here](https://mickmaclean.art.blog/).
+I also maintained a research blog throughout this project where I documented my progress which you can find [here](https://mickmaclean.art.blog/) for more insight into my process.
 
 **Tools:** Jupyter/Python (pandas, numpy, matplotlib, photutils, astropy, scipy), Excel, Astrometry, SAOImageDS9 
 
@@ -14,7 +14,7 @@ I also maintained a research blog throughout this project where I documented my 
 
 
 ### Scientific Overview for a Non-Scientific Audience
-If you have no experience in astronomy, here's the basics of what you need to know about the scientific premis of this project.
+If you have no experience in astronomy, here are the basics of what you need to know about the scientific premis of this project.
 
 Clouds of gas and dust collapse under the gravitational pull of a newly formed stellar object; debris collects and begins to orbit the object as it falls to the surface. Instead of falling directly onto the star, this collected matter flattens and forms a disk around the object in order to preserve angular momentum; this is an accretion disk, and many young objects host them until they dissipate around 3Myrs of formation.
 
@@ -130,8 +130,8 @@ This plot confirms several key concepts:
 #### Capturing Flare Activity
 
 <p float="left">
-  <img src="images/solarflareHa.png" width=300 />
-  <img src="images/solarflare.png" width=295 />
+  <img src="images/solarflareHa.png" width=275 />
+  <img src="images/solarflare.png" width=275 />
 </p>
 
 #### Mass (Spectral Type) vs. Disk Type
