@@ -2,7 +2,7 @@
 
 **An investigation into photometric emissions of low-mass stellar objects via observational data from the WIYN 0.9m optical telescope in Kitt Peak, AZ.**
 
-My research group at the Five College Astronomy Department took photometric images in the Hα wavelength (665nm), and Hα continuum narrowband (666nm), to provide us with data to study light curves produced by varying flux in the Hα band. I analyzed the morphology of such curves and comparing objects of different masses, ages, and disk types to deepen our understanding of how stellar and substellar objects in their earliest stages change over time.
+My research group at the Five College Astronomy Department took photometric images in several wavelengths to provide us with data to study light curves produced by varying flux in very low-mass objects. I analyzed the morphology of such curves and compared objects of different masses, ages, and disk types to deepen our understanding of how stellar and substellar objects in their earliest stages change over time.
 
 This project was in collaboration with my research group in Astro341 at Amherst College, this specific concept being explored with my research partner Savio Olivera; I will only be presenting code and writing samples that are my own.
 
@@ -10,11 +10,26 @@ Tools: Jupyter/Python (pandas, numpy, matplotlib, photutils, astropy, scipy), Ex
 
 Primary skills: data cleaning, data pipeline creation, data visualization, data analysis, data management
 
-### The Data
-Comparing 2 regions of space: Praesepe, the Behive Cluster, and a section of the Taurus star-forming region.
-Praesepe hosts objects around 
+### Scientific Overview for a Non-Scientific Audience
+If you have no experience in astronomy, here's the basics of what you need to know about the science of this project.
 
-Over 300 raw files total; after reduction over 1300 files total. The final data set is reduced to 12 data points, 
+Stars and substellar objects (star-like objects that are too low in mass to be considered stars) form when gravity pulls debris together. These objects are very active when forming, as debris falling onto the objects causes 
+Clouds of gas and dust collapse under the gravitational pull of a newly formed stellar object; debris collects and begins to orbit the object as it falls to the surface. Instead of falling directly onto the star, this collected matter flattens and forms a disk around the object in order to preserve angular momentum; this is an accretion disk, and many young objects host them until they dissipate within 3Myrs of formation.
+
+Ha wavelength is an indicator of stellar activity: chomospheric activity, flares, etc. changes in Ha flux directly indicate changes in activity. We can measure this by the flux or brightness of objects over time.
+
+In order to make sure an object is only increasing its flux in Ha and not simply becoming brighter in all wavelengths, we need another nearby wavelength to compare: Ha off.
+
+When we take images of space, we must process the raw data prior to analysis. We also superimpose the processed images on top of each other to create a deeper image of our region, allowing us to see deeper into space and view fainter objects more accurately; hundreds of images will result in only a few data points, at least for our investigation into flux changes.
+
+
+### The Data
+The data taken utilized the WIYN 0.9m telescope on Kitt Peak National Observatory with the Half-Degree Imager (HDI), and spans 8 nights from January 19-26, 2020; only 6 nights of data were used due to weather conditions. The regions of space I have analyzed are the Taurus V410 field and the Praesepe cluster; the former, a young star forming region of 1-3Myr, and the latter, a cluster of about 600-800Myr old.
+
+
+These data were taken in the Hα wavelength (665nm) and Hα continuum narrowband (666nm), and calibration data (bias frames) were taken for each night; every image also contains overscan data, bias adjustment for every single image.
+
+Over 300 raw files total; after reduction over 1300 files total. The final data set is reduced to 12 data points.
 
 increased activity should be displayed as an increase in H-alpha, with no significant change in H-alpha “off”. This comparison rules out any random changes in the flux due to reasons other than accretion or activity, as H-alpha is the only one of the two bands that will display significant change in flux for these reasons.
 
@@ -22,6 +37,8 @@ Data is also taken from Visier using the coordinates of the objects of interest 
 
 ### Data Reduction
 Images taken from telescopes need to be processed prior to analysis in order to calibrate and clean up intrinsic noise in the CCD.
+
+Standard data reduction procedure in optical wavelengths involves a process of bias subtraction, dark current subtraction, flatfielding. Alignment of images
 
 sorting files: hard-coded sorting methods were used, as this is the simplest method to organize the data
 <details>
