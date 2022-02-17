@@ -47,7 +47,7 @@ sorting files: hard-coded sorting methods were used, as this is the simplest met
 
 <details>
   <summary>View Filesorter Function</summary>
-  
+  xys
   
 ```
   def filesorter(filename, foldername, fitskeyword_to_check, keyword):
