@@ -33,8 +33,8 @@ These data were taken in the Hα wavelength (665nm) and Hα continuum narrowband
 External data is also taken from the VisieR database in order to identify the known traits of these objects, including coordinates, known magnitudes, and disk types. 
 
 <p float="left">
-  <img src="images/Praesepe1.png" width=275 />
-  <img src="images/Screenshot (64).png" width=273 />
+  <img src="images/Praesepe1.png" width=250 />
+  <img src="images/Screenshot (64).png" width=248 />
 </p>
 Fig 1. Final reduced images of our two regions of space, Praesepe (left) and Taurus (right) in Hα.
 
