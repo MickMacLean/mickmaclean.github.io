@@ -31,8 +31,8 @@ These data were taken in the Hα wavelength (665nm) and Hα continuum narrowband
 External data is also taken from the VisieR database in order to identify the known traits of these objects, including coordinates, known magnitudes, and disk types. 
 
 <p float="left">
-  <img src="images/Praesepe1.png" width=400 />
-  <img src="images/Screenshot (64).png" width=398 />
+  <img src="images/Praesepe1.png" width=200 />
+  <img src="images/Screenshot (64).png" width=198 />
 </p>
 Fig 1. Final reduced images of Praesepe (left) and Taurus (right) in Hα.
 
@@ -113,23 +113,27 @@ Photometry function uses coordinates of our target objects,
 ### Results
 
 #### Final Data Spread
-I successfully extracted relative flux data for 14 objects in Taurus and 19 in Praesepe ranging from M1.2 to K6, which is approximately 0.08SM (solar masses) to 0.75SM (Fig.2 Below):
+I successfully extracted relative flux data for 14 objects in Taurus and 19 in Praesepe ranging from M1.2 to K6, which is approximately 0.08SM (solar masses) to 0.75SM (Fig.2 Below).
+
 <img src="images/dataspread.png" width=300>
 
 #### Mass (Spectral Type) & Age Affect on Activity
-<img src="images/final_comare.png" width=600>
-The maximum change in flux over for each night of each object is plotted based on their spectral type. Lower mass objects display higher variable activity on average, having a higher total range of change in flux.
+<img src="images/final_comare.png" width=300>
 
-Younger objects, those in Taurus, display more activity than older objects in Praesepe. Objects >3Myrs of age have completed their accretion process and are stablized, thus their primary activity will be flares.
+This plot confirms several key concepts:
+- The maximum change in flux over for each night of each object is plotted based on their spectral type. Lower mass objects display higher variable activity on average, having a higher total range of change in flux.
+
+- Younger objects, those in Taurus, display more activity than older objects in Praesepe. Objects >3Myrs of age have completed their accretion process and are stablized, thus their primary activity will be flares (which I discuss below).
+
 #### Capturing Flare Activity
 
 <p float="left">
-  <img src="images/solarflareHa.png" width=485 />
-  <img src="images/solarflare.png" width=450 />
+  <img src="images/solarflareHa.png" width=200 />
+  <img src="images/solarflare.png" width=195 />
 </p>
 
 #### Mass (Spectral Type) vs. Disk Type
-<img src="images/disk_final.png" width=400>
+<img src="images/disk_final.png" width=200>
 
 For objects in Taurus, I plotted objects from least (no disk) to most (full disk) amount of debris surrounding and subsequently falling onto the surface of the object (external data from Visier).
 A more complete disk leads to more accretion and thus more activity, as the range of activity is highest for objects likely to be actively accreting. Accretion is a sporadic process, and thus a range of flux changes is expected.
