@@ -44,8 +44,6 @@ Images taken from telescopes need to be processed prior to analysis in order to 
 Standard data reduction procedure in optical wavelengths involves a process of bias subtraction, dark current subtraction, flatfielding. Alignment of images
 
 sorting files: hard-coded sorting methods were used, as this is the simplest method to organize the data
-<details>
-  <summary>View Filesorter Function</summary>
 
 ```
   def filesorter(filename, foldername, fitskeyword_to_check, keyword):
@@ -78,7 +76,7 @@ sorting files: hard-coded sorting methods were used, as this is the simplest met
     return
   ```
   
-  </details>
+
   
 <details>
   <summary>View Code</summary>
