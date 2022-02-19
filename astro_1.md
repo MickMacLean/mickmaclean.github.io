@@ -4,19 +4,18 @@
 
 In collaboration with the Astro341 research group at Amherst College, I was invloved in research in which we took photometric images in several wavelengths to provide us with data to study light curves produced by flux variations in Very Low-Mass Objects (VLMO). I analyzed the morphology of such curves and compared objects of different masses, ages, and disk types to deepen our understanding of how stellar and substellar objects in their earliest stages change over time.
 
-The invesigation of this particular topic was explored with my research partner [Savio Oliveira](https://www.linkedin.com/in/savio-oliveira-astro/); I will only be presenting code and writing samples that are my own.
+The invesigation of this particular topic was explored with my research partner [Savio Oliveira](https://www.linkedin.com/in/savio-oliveira-astro/); I will only be presenting code and writing samples that are my own unless otherwise specified.
 
 I also maintained a research blog throughout this project where I documented my progress which you can find [here](https://mickmaclean.art.blog/) for more insight into my process.
 
 **Tools:** Jupyter/Python (pandas, numpy, matplotlib, photutils, astropy, scipy), Excel, Astrometry, SAOImageDS9 
 
 **Primary skills:** research, data cleaning, data pipeline development, data visualization, data analysis, data management
+[341final_poster.pdf](https://github.com/MickMacLean/mickmaclean.github.io/files/8102648/341final_poster.pdf)
 
 
-### Scientific Overview for a Non-Scientific Audience/Motivation
-If you have no experience in astronomy, here are the basics of what you need to know about the scientific premis of this project.
-
-Clouds of gas and dust collapse under the gravitational pull of a newly formed stellar object, and debris collects and begins to orbit the object as it falls towards the objects surface. Instead of falling directly onto the star, this collected matter flattens and forms a disk around the object in order to preserve angular momentum. This is an *accretion disk*, and many young objects host them until they dissipate, for most objects within 3Myrs after initial formation.
+### Motivation
+Clouds of gas and dust collapse under the gravitational pull of a newly formed stellar object, and debris collects and begins to orbit the object as it falls towards the objects surface. Instead of falling directly onto the star, this collected matter flattens and forms a disk around the object in order to preserve angular momentum. This is an *accretion disk*, and many young objects host them until they dissipate around 3Myrs after initial formation.
 
 Ha wavelength is an indicator of stellar activity: chomospheric activity, flares, etc. changes in Ha flux directly indicate changes in activity. We can measure this by the flux or brightness of objects over time.
 
