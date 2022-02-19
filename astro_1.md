@@ -30,7 +30,7 @@ print("hello world!")
 ### Scientific Overview for a Non-Scientific Audience/Motivation
 If you have no experience in astronomy, here are the basics of what you need to know about the scientific premis of this project.
 
-Clouds of gas and dust collapse under the gravitational pull of a newly formed stellar object, and debris collects and begins to orbit the object as it falls towards the objects surface. Instead of falling directly onto the star, this collected matter flattens and forms a disk around the object in order to preserve angular momentum. This is an *accretion disk*, and many young objects host them until they dissipate around 3Myrs after initial formation.
+Clouds of gas and dust collapse under the gravitational pull of a newly formed stellar object, and debris collects and begins to orbit the object as it falls towards the objects surface. Instead of falling directly onto the star, this collected matter flattens and forms a disk around the object in order to preserve angular momentum. This is an *accretion disk*, and many young objects host them until they dissipate, for most objects within 3Myrs after initial formation.
 
 Ha wavelength is an indicator of stellar activity: chomospheric activity, flares, etc. changes in Ha flux directly indicate changes in activity. We can measure this by the flux or brightness of objects over time.
 
@@ -47,8 +47,8 @@ These data were taken in the Hα wavelength (665nm) and Hα continuum narrowband
 External data is also taken from the VisieR database in order to identify the known traits of these objects, including coordinates, known magnitudes, and disk types. 
 
 <p float="left">
-  <img src="images/Praesepe1.png" width=250 />
-  <img src="images/Screenshot (64).png" width=248 />
+  <img src="images/Praesepe1.png" width=220 />
+  <img src="images/Screenshot (64).png" width=218 />
 </p>
 Fig 1. Final reduced images of our two regions of space, Praesepe (left) and Taurus (right) in Hα.
 
