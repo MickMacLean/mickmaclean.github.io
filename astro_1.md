@@ -8,6 +8,20 @@ The invesigation of this particular topic was explored with my research partner 
 
 I also maintained a research blog throughout this project where I documented my progress which you can find [here](https://mickmaclean.art.blog/) for more insight into my process.
 
+
+<details><summary>CLICK ME</summary>
+<p>
+
+#### yes, even hidden code blocks!
+
+```python
+print("hello world!")
+```
+
+</p>
+</details>
+
+
 **Tools:** Jupyter/Python (pandas, numpy, matplotlib, photutils, astropy, scipy), Excel, Astrometry, SAOImageDS9 
 
 **Primary skills:** research, data cleaning, data pipeline development, data visualization, data analysis, data management
@@ -46,10 +60,9 @@ Standard data reduction procedure in optical wavelengths involves a process of b
 sorting files: hard-coded sorting methods were used, as this is the simplest method to organize the data
 
 <details><summary>View Filesorter Function</summary>
-<p>
   
 ```python
-def filesorter(filename, foldername, fitskeyword_to_check, keyword):
+    def filesorter(filename, foldername, fitskeyword_to_check, keyword):
     '''
     This function takes input file and places it in a folder given if it is the correct type of fits file.
     '''
@@ -79,7 +92,6 @@ def filesorter(filename, foldername, fitskeyword_to_check, keyword):
     return
   ```
   
-</p>  
 </details>
 
   
