@@ -29,7 +29,7 @@ These data were taken in the Hα wavelength (665nm) and Hα continuum narrowband
 External data is also taken from the VisieR database in order to identify the known traits of these objects, including coordinates, known magnitudes, and disk types. 
 
 <p float="left">
-  <img src="images/Praesepe1.png" width=220 />
+  <img src="images/Praesepe1.png" width=222 />
   <img src="images/Screenshot (64).png" width=220 />
 </p>
 Fig 1. Final reduced images of our two regions of space, Praesepe (left) and Taurus (right) in Hα.
@@ -70,10 +70,8 @@ This plot confirms several key concepts:
 
 #### Capturing Flare Activity
 
-<p float="left">
-  <img src="images/solarflareHa.png" width=240 />
-  <img src="images/solarflare.png" width=230 />
-</p>
+<img src="images/solarflareHa.png" width=500 />
+<img src="images/solarflare.png" width=480 />
 
 #### Mass (Spectral Type) vs. Disk Type
 <img src="images/disk_final.png" width=500>
