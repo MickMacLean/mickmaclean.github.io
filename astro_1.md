@@ -8,20 +8,6 @@ The invesigation of this particular topic was explored with my research partner 
 
 I also maintained a research blog throughout this project where I documented my progress which you can find [here](https://mickmaclean.art.blog/) for more insight into my process.
 
-
-<details><summary>CLICK ME</summary>
-<p>
-
-#### yes, even hidden code blocks!
-
-```python
-print("hello world!")
-```
-
-</p>
-</details>
-
-
 **Tools:** Jupyter/Python (pandas, numpy, matplotlib, photutils, astropy, scipy), Excel, Astrometry, SAOImageDS9 
 
 **Primary skills:** research, data cleaning, data pipeline development, data visualization, data analysis, data management
@@ -48,7 +34,7 @@ External data is also taken from the VisieR database in order to identify the kn
 
 <p float="left">
   <img src="images/Praesepe1.png" width=220 />
-  <img src="images/Screenshot (64).png" width=218 />
+  <img src="images/Screenshot (64).png" width=220 />
 </p>
 Fig 1. Final reduced images of our two regions of space, Praesepe (left) and Taurus (right) in Hα.
 
