@@ -21,9 +21,6 @@ Ha wavelength is an indicator of stellar activity: chomospheric activity, flares
 
 In order to make sure an object is only increasing its flux in Ha and not simply becoming brighter in all wavelengths, we need another nearby wavelength to compare: Ha off.
 
-When we take images of space, we must process the raw data prior to analysis. We also superimpose the processed images on top of each other to create a deeper image of our region, allowing us to see deeper into space and view fainter objects more accurately; hundreds of images will result in only a few data points, at least for our investigation into flux changes.
-
-
 ### The Data
 The data taken utilized the WIYN 0.9m telescope on Kitt Peak National Observatory with the Half-Degree Imager (HDI), and spans 8 nights from January 19-26, 2020; only 6 nights of data were used due to weather conditions. The regions of space I have analyzed are the Taurus V410 field and the Praesepe cluster, the former, a young star forming region of 1-3Myrs old, and the latter, a cluster of about 600-800Myr old.
 
@@ -39,63 +36,15 @@ Fig 1. Final reduced images of our two regions of space, Praesepe (left) and Tau
 
 ### Data Reduction
 Images taken from telescopes need to be processed prior to analysis in order to calibrate and clean up intrinsic noise in the CCD.
+When we take images of space, we must process the raw data prior to analysis. We also superimpose the processed images on top of each other to create a deeper image of our region, allowing us to see deeper into space and view fainter objects more accurately; hundreds of images will result in only a few data points, at least for our investigation into flux changes.
 
 Standard data reduction procedure in optical wavelengths involves a process of bias subtraction, dark current subtraction, flatfielding. Alignment of images
 
 sorting files: hard-coded sorting methods were used, as this is the simplest method to organize the data
 
-<details><summary>View Filesorter Function</summary>
-  
-```python
-    def filesorter(filename, foldername, fitskeyword_to_check, keyword):
-    '''
-    This function takes input file and places it in a folder given if it is the correct type of fits file.
-    '''
-    # this checks if there is a file of that name already, if so then it moves onto the next step, otherwise
-    # tells you it does not exist.
-    if os.path.exists(filename):
-        pass
-    else:
-        print(filename + " does not exist or has already been moved.")
-        return
-    
-    header = fits.getheader(filename)
-    fits_type = header[keyword]
-    
-    # this checks that there is a folder of that name, and makes it if there is not
-    if os.path.exists(foldername):
-        pass
-    else:
-        print("Making new directory: " + foldername)
-        os.mkdir(foldername)
-    
-    # this checks that the file is the correct type of fits file and moves it to the folder if it is
-    if fits_type == fitskeyword_to_check:
-        destination = foldername + '/'
-        print("Moving " + filename + " to: ./" + destination + filename)
-        os.rename(filename, destination + filename)  
-    return
-  ```
-  
-</details>
-
-  
 <details>
   <summary>View Code</summary>
   
-``` 
-  
-```
-  
-</details>
-
-<details> 
-   <summary>View Function Module</summary>
- 
-``` 
-  
-```
-
 </details>
 
 ### Analysis
@@ -103,14 +52,6 @@ sorting files: hard-coded sorting methods were used, as this is the simplest met
 
 Photometry function uses coordinates of our target objects, 
 
-<details>
-  <summary>View Photometry Function</summary>
-  
-```  
-
-```
-
-</details>
 
 ### Results
 
@@ -130,12 +71,12 @@ This plot confirms several key concepts:
 #### Capturing Flare Activity
 
 <p float="left">
-  <img src="images/solarflareHa.png" width=210 />
-  <img src="images/solarflare.png" width=200 />
+  <img src="images/solarflareHa.png" width=240 />
+  <img src="images/solarflare.png" width=230 />
 </p>
 
 #### Mass (Spectral Type) vs. Disk Type
-<img src="images/disk_final.png" width=400>
+<img src="images/disk_final.png" width=500>
 
 For objects in Taurus, I plotted objects from least (no disk) to most (full disk) amount of debris surrounding and subsequently falling onto the surface of the object (external data from Visier).
 A more complete disk leads to more accretion and thus more activity, as the range of activity is highest for objects likely to be actively accreting. Accretion is a sporadic process, and thus a range of flux changes is expected.
