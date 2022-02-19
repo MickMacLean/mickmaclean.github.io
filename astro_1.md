@@ -130,8 +130,8 @@ This plot confirms several key concepts:
 #### Capturing Flare Activity
 
 <p float="left">
-  <img src="images/solarflareHa.png" width=275 />
-  <img src="images/solarflare.png" width=275 />
+  <img src="images/solarflareHa.png" width=210 />
+  <img src="images/solarflare.png" width=200 />
 </p>
 
 #### Mass (Spectral Type) vs. Disk Type
