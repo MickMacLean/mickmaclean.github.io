@@ -1,11 +1,11 @@
 title: Mickey MacLean # your name (or website title) here
 logo: "/images/mick1-modified.png?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
-  First description 
+  My name is Mickey MacLean, welcome to my portfolio! I completed my undergraduate degree at the University of Massachusetts Amherst in 2020 where I studied Physics with a concentration in Observational Astronomy. I began my coding journey during my degree in the context of computational physics and development of data reduction and analysis of astronomy data, developing simple models and creating data pipelines using Python. My focus being primarily experimental data analysis allowed me to develop my computational skills that have applications beyond just the contexts in which I learned them.
   <br><br>
-  Second description 
+  Now I apply my knowledge and skills to personal projects I'm passionate about, and am pursuing employment opportunities in the field of data analytics. I’m passionate about data, and taking and understanding data in a variety of contexts. I’m also an artist and am passionate about music.
+  Main tools: Python, MatLab, Excel, SQL, LaTex
   <br><br>
-  <a href="https://www.linkedin.com/in/example/">View My LinkedIn Profile</a> 
+  <a href="https://www.linkedin.com/in/makala-maclean-59bb62227/">View My LinkedIn Profile</a> 
   
 theme: jekyll-theme-minimal
-google_analytics: UA-000000-0 # your Google Analytics tracking ID here
