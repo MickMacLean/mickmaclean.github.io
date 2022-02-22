@@ -15,16 +15,14 @@ I also maintained a research blog throughout this project where I documented my 
 
 
 ### Motivation
-Clouds of gas and dust collapse under the gravitational pull of a newly formed stellar object, and debris collects and begins to orbit the object as it falls towards the objects surface. Instead of falling directly onto the star, this collected matter flattens and forms a disk around the object in order to preserve angular momentum. This is an *accretion disk*, and many young objects host them until they dissipate around 3Myrs after initial formation.
+Young, low-mass stellar and substellar objects are among the most active and varied objects in the universe and can provide us with information on the early stages of both stellar evolution and planet formation. Clouds of gas and dust collapse under the gravitational pull of a newly formed stellar object, and debris collects and begins to orbit the object as it falls towards the objects surface. Instead of falling directly onto the star, this collected matter flattens and forms a disk around the object in order to preserve angular momentum. This is an *accretion disk*, and many young objects host them until they dissipate around 3Myrs after initial formation. These first few million years of a star’s life tell us how it's initial conditions affect the rest of its evolution as it approaches the main sequence.
 
-Ha wavelength is an indicator of stellar activity: chomospheric activity, flares, etc. changes in Ha flux directly indicate changes in activity. We can measure this by the flux or brightness of objects over time.
-
-In order to make sure an object is only increasing its flux in Ha and not simply becoming brighter in all wavelengths, we need another nearby wavelength to compare: Ha off.
+The Hα wavelength (665nm) is an indicator of all forms of stellar activity, including chomospheric activity, flares, star spots etc. Hα emissions are correlated to protostellar activity while a nearby wavelength, Hα continuum narrow band or Hα-off (666nm), effectively serves as a controlled way to compare emissions. Both of these are narrow band filters located in the red wavelengths of light, and increased activity should be displayed as an increase in Hα, with no significant change in Hα-off. This comparison rules out any random changes in the flux due to reasons other than accretion or activity, as Hα is the only band that will display significant change in flux for these reasons.
 
 ### The Data
 The data taken utilized the WIYN 0.9m telescope on Kitt Peak National Observatory with the Half-Degree Imager (HDI), and spans 8 nights from January 19-26, 2020; only 6 nights of data were used due to weather conditions. The regions of space I have analyzed are the Taurus V410 field and the Praesepe cluster, the former, a young star forming region of 1-3Myrs old, and the latter, a cluster of about 600-800Myr old.
 
-These data were taken in the Hα wavelength (665nm) and Hα continuum narrowband (666nm), and calibration data (bias frames) were taken for each night; every image also contains overscan data, which is a bias adjustment tool for every single image. Our observing run for these regions resulted in over 300 raw files total, expanding to over 1300 files after reduction. 
+These data were taken in the Hα wavelength (665nm) and Hα-off (666nm), and calibration data (bias frames) were taken for each night; every image also contains overscan data, which is a bias adjustment tool for every single image. Our observing run for these regions resulted in over 300 raw files total, expanding to over 1300 files after reduction. 
 
 External data is also taken from the VisieR database in order to identify the known traits of these objects, including coordinates, known magnitudes, and disk types. 
 
@@ -46,12 +44,6 @@ sorting files: hard-coded sorting methods were used, as this is the simplest met
   <summary>View Code</summary>
   
 </details>
-
-### Analysis
-
-
-Photometry function uses coordinates of our target objects, 
-
 
 ### Results
 
