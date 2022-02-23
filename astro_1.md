@@ -33,12 +33,13 @@ External data is also taken from the VisieR database in order to identify the kn
 Fig 1. Final reduced images of our two regions of space, Praesepe (left) and Taurus (right) in Hα.
 
 ### Data Reduction
-Images taken from telescopes need to be processed prior to analysis in order to calibrate and clean up intrinsic noise in the CCD.
 When we take images of space, we must process the raw data prior to analysis. We also superimpose the processed images on top of each other to create a deeper image of our region, allowing us to see deeper into space and view fainter objects more accurately; hundreds of images will result in only a few data points, at least for our investigation into flux changes.
 
 Standard data reduction procedure in optical wavelengths involves a process of bias subtraction, dark current subtraction, flatfielding. Alignment of images
 
 sorting files: hard-coded sorting methods were used, as this is the simplest method to organize the data
+
+Example of Night 1 data reduction process. This is done for all 6 nights of data.
 
 <details>
   <summary>View Code</summary>
