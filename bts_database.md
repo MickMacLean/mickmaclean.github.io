@@ -2,6 +2,7 @@
 
 ### Project at a glance
 **Construct a database with data on every BTS song such that the data will be in an easily comparable format.** 
+
 방탄소년단, Bangtan Sonyeondan, also known as BTS, is a South Korean boyband under Big Hit Entertainment whose extensive and diverse discography has garnered them a plethora of awards and millions of passionate fans dedicated to their socially-conscious music. 
 
 As an avid fan myself, I am interested in understanding their music lyrically and emotionally, and as a 
