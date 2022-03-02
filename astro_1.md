@@ -54,17 +54,17 @@ I successfully extracted relative flux data for 14 objects in Taurus and 19 in P
 <img src="images/dataspread.png" width=300>
 
 #### Mass (Spectral Type) & Age Affect on Activity
-The maximum change in Ha flux for each night of each object is plotted based on their spectral type.
+The maximum change in Ha flux for each night of each object is plotted based on their spectral type, along with the average of these maximum fluxes.
 
 <img src="images/final_comare.png" width=500>
 
 This plot confirms several key concepts:
 - Lower mass objects display higher variable activity on average, having a higher total range of change in flux.
 
-- Younger objects, those in Taurus1, display more activity than older objects in Praesepe. Objects >3Myrs of age have completed their accretion process and are stablized, thus their primary activity will be flares (which I discuss below).
+- Younger objects, those in Taurus (red), display more activity than older objects in Praesepe. Objects >3Myrs of age have completed their accretion process and are stablized, thus their primary activity will be flares (which I discuss below).
 
-#### Capturing Flare Activity
-
+#### Flare Activity
+An object in Praesepe displays flare activity captured over the course of our observing run, peaking on night 2. The sudden spike in Ha flux with no similar trace in Ha off indicates that this is indeed solar activity, while the pattern is indicative of a traditional flare, common among stars of all sizes. Unfortunately, the two days following the spike, when we would likely see a slow fall in flux, were not salvageable due to weather conditions.
 <img src="images/solarflareHa.png" width=500 />
 <img src="images/solarflare.png" width=480 />
 
