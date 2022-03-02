@@ -5,12 +5,13 @@
 In collaboration with the Astro341 research group at Amherst College, I was invloved in research in which we took photometric images in several wavelengths to provide us with data to study light curves produced by flux variations in Very Low-Mass Objects (VLMO). I analyzed the morphology of such curves and compared objects of different masses, ages, and disk types to deepen our understanding of how stellar and substellar objects in their earliest stages change over time.
 
 The invesigation of this particular topic was explored with my research partner [Savio Oliveira](https://www.linkedin.com/in/savio-oliveira-astro/); I will only be presenting code and writing samples that are my own unless otherwise specified.
-
-I also maintained a research blog throughout this project where I documented my progress which you can find [here](https://mickmaclean.art.blog/) for more insight into my process.
-**Research Blog:** 
+ 
 **Tools:** Jupyter/Python (pandas, numpy, matplotlib, photutils, astropy, scipy), Excel, Astrometry, SAOImageDS9 
 
 **Primary skills:** research, data cleaning, data pipeline development, data visualization, data analysis, data management
+
+**Research Blog:** I maintained a research blog throughout this project documenting my progress which you can find [here](https://mickmaclean.art.blog/) for more insight into my process.
+
 **Poster Presentation:** [341final_poster.pdf](https://github.com/MickMacLean/mickmaclean.github.io/files/8102648/341final_poster.pdf)
 
 
