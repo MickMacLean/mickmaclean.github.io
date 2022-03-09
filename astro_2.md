@@ -22,6 +22,9 @@ The intensities of the spectra were used to find the ratios between the K = 0 to
 The ratios were used to find the values of temperature
 
 ### Results & Weighted Corrections
-
-
+<img src="images/rawavg.png" width=300>
+<p float="left">
+  <img src="images/avgtemp.png" width=222 />
+  <img src="images/avgtempu.png" width=220 />
+</p>
 
