@@ -24,10 +24,13 @@ The ratios were used to find the values of temperature
 ### Results & Weighted Corrections
 Using a Gaussian fit, the standard deviation discarded 30% of the data. Data points that were discarded were replaced with the mean value of all other points, and the uncertainties were found similarly.
 
+The raw data is displayed below.
 <img src="images/rawavg.png" width=300>
+
+After correcting 
 <p float="left">
   <img src="images/avgtemp.png" width=222 />
   <img src="images/avgtempu.png" width=222 />
 </p>
 
-The small concentration of warmer temperatures is the core of the cloud where star formation is likely to begin occurring.
+The small concentration of warmer temperatures is a cloud core, a denser region of molecules.
