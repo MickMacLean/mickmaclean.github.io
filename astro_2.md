@@ -1,6 +1,7 @@
 ## Radio Astronomy Project
  
 **Using rotational transitions of CH₃CCH to confirm the temperature of the S140 gas cloud with previously taken data from the FCRAO telescope in Massachusetts.**
+
 I analyzed data from an observing run in 2006 which utilized the now defunct FCRAO telescope in order to determine if the data is consistent with previous studies on the temperature of a gas cloud. 
 
 **tools:** Python (), IRAM CLASS software package
@@ -21,10 +22,12 @@ The intensities of the spectra were used to find the ratios between the K = 0 to
 The ratios were used to find the values of temperature
 
 ### Results & Weighted Corrections
+Using a Gaussian fit, the standard deviation discarded 30% of the data. Data points that were discarded were replaced with the mean value of all other points, and the uncertainties were found similarly.
+
 <img src="images/rawavg.png" width=300>
 <p float="left">
   <img src="images/avgtemp.png" width=222 />
-  <img src="images/avgtempu.png" width=220 />
+  <img src="images/avgtempu.png" width=222 />
 </p>
 
 The small concentration of warmer temperatures is the core of the cloud where star formation is likely to begin occurring.
