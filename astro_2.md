@@ -28,3 +28,4 @@ The ratios were used to find the values of temperature
   <img src="images/avgtempu.png" width=220 />
 </p>
 
+The small concentration of warmer temperatures is the core of the cloud where star formation is going to begin occurring.
