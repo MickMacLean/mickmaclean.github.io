@@ -27,10 +27,11 @@ Using a Gaussian fit, the standard deviation discarded 30% of the data. Data poi
 The raw data is displayed below.
 <img src="images/rawavg.png" width=300>
 
-After correcting 
+After replacing values we have the temperature map as follows:
 <p float="left">
   <img src="images/avgtemp.png" width=222 />
   <img src="images/avgtempu.png" width=222 />
 </p>
 
+The average temperature of the cloud was found to be 27. Comparing this to the known value of 30; 30 is within one standard deviation of our results.
 The small concentration of warmer temperatures is a cloud core, a denser region of molecules.
