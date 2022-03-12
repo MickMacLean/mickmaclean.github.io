@@ -21,6 +21,9 @@ Found the intensities for 23 of the spectra, which had a good fit to clearly sho
 The intensities of the spectra were used to find the ratios between the K = 0 to K = 1, K = 2, and K = 3 transitions
 The ratios were used to find the values of temperature
 
+Spectra analysis; analyze the intensity vs velocity spectra
+4 peaks correspond to k-ladders, find value from peak
+
 ### Results & Weighted Corrections
 Using a Gaussian fit, the standard deviation discarded 30% of the data. Data points that were discarded were replaced with the mean value of all other points, and the uncertainties were found similarly.
 
