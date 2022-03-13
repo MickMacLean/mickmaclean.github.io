@@ -2,7 +2,7 @@
  
 **Using rotational transitions of CH₃CCH to confirm the temperature of the S140 gas cloud with previously taken data from the FCRAO telescope in Massachusetts.**
 
-I analyzed data from an observing run in 2006 which utilized the now defunct FCRAO telescope in order to determine if the data is consistent with previous studies on the temperature of a gas cloud. 
+I analyzed data taken during an observing run in 2006 using the now defunct FCRAO telescope in order to determine the temperature of a gas cloud, and compare the results to previous studies. 
 
 **tools:** Python (), IRAM CLASS software package
 
