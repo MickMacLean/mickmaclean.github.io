@@ -11,8 +11,10 @@ Methyl Acetylene (CH₃CCH) is a non-linear molecule, needing more than one quan
 When K = 0, the molecule will not be rotating about the symmetry axis at all and when K = J, all of the molecules rotational angular momentum will be about its symmetry axis.
 
 The dipole moment for CH₃CCH is along the symmetry axis which means that electromagnetic radiation can not exert a torque on the molecule along that axis. This means that EM radiation can not affect the K quantum number and the value of K for the CH₃CCH molecule is only changed by collisions with other molecules, i.e. temperature. A population of  CH₃CCH molecules with similar K values are in thermodynamic equilibrium and the population size is only determined by the temperature of the gas. By measuring the different intensities of a change in J for different K-ladders, the intensities can be compared and used to calculate the temperature of the gas cloud these molecules are found in.
+
 <img src="images/CodeCogsEqn.png" width=250>
 <img src="images/CodeCogsEqn (2).png" width=250>
+
 The molecular cloud in the S140 region contains a high density of CH₃CCH and by analyzing the intensities of moleculare emission lines, the temperature variations within the cloud can be determined.
 This experiment uses data gathered from the core of gas cloud S140 and looks at the J = 6 to J = 5 transition of CH₃CCH at four different K-ladders
 
