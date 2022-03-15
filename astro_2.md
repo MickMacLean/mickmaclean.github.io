@@ -16,14 +16,15 @@ The dipole moment for CH₃CCH is along the symmetry axis which means that elect
 <img src="images/CodeCogsEqn (2).png" width=250>
 
 The molecular cloud in the S140 region contains a high density of CH₃CCH and by analyzing the intensities of moleculare emission lines, the temperature variations within the cloud can be determined.
-This experiment uses data gathered from the core of gas cloud S140 and looks at the J = 6 to J = 5 transition of CH₃CCH at four different K-ladders
 
 ### The Data
-Data was taken from the core of the S140 gas cloud and looks at the J = 6  and J = 5 rotational transition of CH₃CCH at 4 different K-ladders (K = 0 to    K = 1, K = 2, and K = 3 transitions).
+Data was taken from the core of the S140 gas cloud observing the J = 6 and J = 5 rotational transition of CH₃CCH at 4 different K-ladders (K = 0 to K = 1, K = 2, and K = 3 transitions).
 Used a gaussian fit to fit the data
 Found the intensities for 23 of the spectra, which had a good fit to clearly show the four peaks in the data
 The intensities of the spectra were used to find the ratios between the K = 0 to K = 1, K = 2, and K = 3 transitions
 The ratios were used to find the values of temperature
+
+<img src="images/radioast.png" width=300>
 
 Spectra analysis; analyze the intensity vs velocity spectra
 4 peaks correspond to k-ladders, find value from peak
