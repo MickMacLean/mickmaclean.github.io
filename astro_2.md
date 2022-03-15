@@ -18,21 +18,14 @@ The dipole moment for CH₃CCH is along the symmetry axis which means that elect
 The molecular cloud in the S140 region contains a high density of CH₃CCH and by analyzing the intensities of moleculare emission lines, the temperature variations within the cloud can be determined.
 
 ### The Data
-Data was taken from the core of the S140 gas cloud observing the J = 6 and J = 5 rotational transition of CH₃CCH at 4 different K-ladders (K = 0 to K = 1, K = 2, and K = 3 transitions).
-Used a gaussian fit to fit the data
-Found the intensities for 23 of the spectra, which had a good fit to clearly show the four peaks in the data
-The intensities of the spectra were used to find the ratios between the K = 0 to K = 1, K = 2, and K = 3 transitions
-The ratios were used to find the values of temperature
+Data was taken from the core of the S140 gas cloud observing the J = 6 and J = 5 rotational transition of CH₃CCH at 4 different K-ladders (K = 0 to K = 1, K = 2, and K = 3 transitions), and was analyzed using the CLASS software package. I used a gaussian fit to find the intensities for 23 spectra via the four peaks in the data which correspond to each of the k-ladders. These intensities were used to find the ratios between the k-ladder transitions given the previous equations, and thus the temperature.
 
 <img src="images/radioast.png" width=300>
-
-Spectra analysis; analyze the intensity vs velocity spectra
-4 peaks correspond to k-ladders, find value from peak
 
 ### Results & Weighted Corrections
 Using a Gaussian fit, the standard deviation discarded 30% of the data. Data points that were discarded were replaced with the mean value of all other points, and the uncertainties were found similarly. Mean & median very similar --- implies outliers have not skewed our data, even before error analysis
 Any values outside the stdev discarded
-
+The temperatures are mapped based on the coordinates below.
 
 The raw data is displayed below.
 <img src="images/rawavg.png" width=300>
@@ -43,5 +36,5 @@ After replacing values we have the temperature map as follows:
   <img src="images/avgtempu.png" width=222 />
 </p>
 
-The average temperature of the cloud was found to be 27. Comparing this to the known value of 30; 30 is within one standard deviation of our results.
+The average temperature of the cloud was found to be 26.68 ± 5.84K where the uncertainty is one standard deviation. Comparing this to the known value of 30; 30 is within one standard deviation of our results.
 The small concentration of warmer temperatures is a cloud core, a denser region of molecules.
