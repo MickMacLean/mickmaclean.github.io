@@ -5,7 +5,9 @@
 
 방탄소년단, Bangtan Sonyeondan, also known as BTS, is a South Korean boyband under Big Hit Entertainment whose extensive and diverse discography has garnered them a plethora of awards and millions of passionate fans dedicated to their socially-conscious music. 
 
-As an avid fan myself, I am interested in understanding their music lyrically and emotionally, and as a 
+With over 350 songs in their discography, their discography is a prime opportunity with data to explore further.
+
+As an avid fan myself, I am interested in understanding their music lyrically and emotionally, and as someone passionate about data, I'm interested in the analytics of their music as well.
 Construct a user-friendly website to display these data for fans to access and use for their own purposes.
 Want data in an easily comparable format, serve as an encyclopedia of information.
 
