@@ -15,7 +15,7 @@ Electromagnetic radiation can not exert a torque on the molecule along its symme
 <img src="images/CodeCogsEqn.png" width=250>
 <img src="images/CodeCogsEqn (2).png" width=250>
 
-The molecular cloud in the S140 region contains a high density of CH₃CCH in equillibrium and by analyzing the intensities of moleculare emission lines, the temperature variations within the cloud can be determined.
+The molecular cloud in the S140 region contains a high density of CH₃CCH in equillibrium and by analyzing the intensities of moleculare emission lines, the temperature variations within the cloud can be determined and mapped.
 
 ### The Data
 Data was taken from the core of the S140 gas cloud observing the J = 6 and J = 5 rotational transition of CH₃CCH at 4 different K-ladders (K = 0 to K = 1, K = 2, and K = 3 transitions), and was analyzed using the CLASS software package. I used a gaussian fit to find the intensities for 23 spectra via the four peaks in the data which correspond to each of the k-ladders. These intensities were used to find the ratios between the k-ladder transitions given the previous equations, and thus the temperature.
