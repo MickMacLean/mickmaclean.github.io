@@ -22,9 +22,10 @@ Data was taken from the core of the S140 gas cloud observing the J = 6 and J = 5
 
 <img src="images/radioast.png" width=300>
 The above data visualization displays the emission specrum of intensity as a function of frequency (v2) where the four peaks are the kladder emissions. The Gaussian fit is (faintly) displayed to show the fit. This data is displayed within the CLASS software package.
+
 ### Results & Weighted Corrections
 Using a Gaussian fit, 70% of the data fit within one standard deviation. Data points that were discarded were replaced with the mean value of all other points, and the uncertainties were found similarly using the mean uncertainties. More accurately weighted values would be ideal, but it is difficult to 
-The temperatures are mapped based on the coordinates below.
+The temperatures are mapped based on the coordinates from the original databelow.
 
 The raw data is displayed below.
 <img src="images/rawavg.png" width=300>
