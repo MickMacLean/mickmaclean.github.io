@@ -12,7 +12,7 @@ The invesigation of this particular topic was explored with my research partner 
 
 **Research Blog:** I maintained a research blog throughout this project documenting my progress which you can find [here](https://mickmaclean.art.blog/) for more insight into my process.
 
-**Poster Presentation:** [341final_poster.pdf](https://github.com/MickMacLean/mickmaclean.github.io/files/8102648/341final_poster.pdf)
+**Poster Presentation:** The final poster presentation (made in collaboration with my research partner) can be downloaded [here](https://github.com/MickMacLean/mickmaclean.github.io/files/8102648/341final_poster.pdf).
 
 
 ### Motivation
@@ -34,16 +34,12 @@ External data is also taken from the VisieR database in order to identify the kn
 Fig 1. Final reduced images of our two regions of space, Praesepe (left) and Taurus (right) in Hα.
 
 ### Data Reduction
-When we take images of space, we must process the raw data prior to analysis. We also superimpose the processed images on top of each other to create a deeper image of our region, allowing us to see deeper into space and view fainter objects more accurately; hundreds of images will result in only a few data points, at least for our investigation into flux changes.
+When we take images of space, we must process the raw data prior to analysis. We also superimpose the processed images on top of each other to create a deeper image of our region, allowing us to see further into space and view fainter objects more accurately; hundreds of images will result in only a few data points, at least for our investigation into flux changes.The standard data reduction procedure in optical wavelengths involving bias subtraction, dark current subtraction, flatfielding, image alignment adjustments, and superimposment of images was performed in Python. The module with all of the functions I created and used is available to view below and download [here](Mickey.py).
 
-Standard data reduction procedure in optical wavelengths involves a process of bias subtraction, dark current subtraction, flatfielding. Alignment of images
-
-sorting files: hard-coded sorting methods were used, as this is the simplest method to organize the data
-
-Example of Night 1 data reduction process. This is done for all 6 nights of data.
+<a href="pdf/Mickey.pdf">ok</a>
 
 <details>
-  <summary>View Code</summary>
+  <summary>View Module Functions </summary>
   
 </details>
 
