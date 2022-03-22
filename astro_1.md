@@ -34,42 +34,34 @@ External data is also taken from the VisieR database in order to identify the kn
 Fig 1. Final reduced images of our two regions of space, Praesepe (left) and Taurus (right) in Hα.
 
 ### Data Reduction
-When we take images of space, we must process the raw data prior to analysis. We also superimpose the processed images on top of each other to create a deeper image of our region, allowing us to see further into space and view fainter objects more accurately; hundreds of images will result in only a few data points, at least for our investigation into flux changes.The standard data reduction procedure in optical wavelengths involving bias subtraction, dark current subtraction, flatfielding, image alignment adjustments, and superimposment of images was performed in Python. The module with all of the functions I created and used is available to view below and download [here](Mickey.py).
-
-<a href="pdf/Mickey.pdf">ok</a>
-
-<details>
-  <summary>View Module Functions </summary>
-  
-</details>
+When we take images of space, we must process the raw data prior to analysis. We also superimpose the processed images on top of each other to create a deeper image of our region, allowing us to see further into space and view fainter objects more accurately; hundreds of images will result in only a few data points, at least for our investigation into flux changes.The standard data reduction procedure in optical wavelengths involving bias subtraction, dark current subtraction, flatfielding, image alignment adjustments, and superimposment of images was performed in Python. The module with all of the functions I created and used is available to view <a href="pdf/Mickey.pdf">here</a>.
 
 ### Results
 
 #### Final Data Spread
-I successfully extracted relative flux data for 14 objects in Taurus and 19 in Praesepe ranging from M1.2 to K6, which is approximately 0.08SM (solar masses) to 0.75SM (Fig.2 Below).
+I successfully extracted relative flux data for 14 objects in Taurus and 19 in Praesepe ranging from M1.2 to K6, which is approximately 0.08 to 0.75 solar masses (Fig.2 Below).
 
 <img src="images/dataspread.png" width=300>
 
 #### Mass (Spectral Type) & Age Affect on Activity
-The maximum change in Ha flux for each night of each object is plotted based on their spectral type, along with the average of these maximum fluxes.
+The maximum change in Ha flux for each night of each object is plotted based on their spectral type, along with the average of these maximum fluxes. 
 
 <img src="images/final_comare.png" width=500>
 
 This plot confirms several key concepts:
 - Lower mass objects display higher variable activity on average, having a higher total range of change in flux.
 
-- Younger objects, those in Taurus (red), display more activity than older objects in Praesepe. Objects >3Myrs of age have completed their accretion process and are stablized, thus their primary activity will be flares (which I discuss below).
+- Younger objects, those in Taurus (red), display more activity than older objects in Praesepe (blue) with their average maximum fluxes being 0.25 and 0.14 respectively. Objects greater than 3Myrs of age are known to have completed their accretion process and are stablized, thus their primary activity will be flares (which I discuss below).
 
 #### Flare Activity
-An object in Praesepe displays flare activity captured over the course of our observing run, peaking on night 2. The sudden spike in Ha flux with no similar trace in Ha off indicates that this is indeed solar activity, while the pattern is indicative of a traditional flare, common among stars of all sizes. Unfortunately, the two days following the spike, when we would likely see a slow fall in flux, were not salvageable due to weather conditions.
+An object in Praesepe displays flare activity captured over the course of our observing run, peaking on night 2. The sudden spike in Ha flux with no similar trace in Ha off indicates that this is indeed solar activity, while the pattern is indicative of a traditional flare. We would expect to see a slow drop in flux in the two days following this flare, but these data were not salvageable due to weather conditions.
 <img src="images/solarflareHa.png" width=500 />
 <img src="images/solarflare.png" width=480 />
 
 #### Mass (Spectral Type) vs. Disk Type
 <img src="images/disk_final.png" width=500>
 
-For objects in Taurus, I plotted objects from least (no disk) to most (full disk) amount of debris surrounding and subsequently falling onto the surface of the object (external data from Visier).
-A more complete disk leads to more accretion and thus more activity, as the range of activity is highest for objects likely to be actively accreting. Accretion is a sporadic process, and thus a range of flux changes is expected.
+For objects in Taurus, I plotted objects from least (no disk) to most (full disk) amount of debris surrounding and subsequently falling onto the surface of the object (external data from VisieR). A more complete disk leads to more accretion and thus more activity, as the range of activity is highest for objects likely to be actively accreting. Accretion is a sporadic process, and thus a range of flux changes is expected.
 
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+### Further Research
+While the data set yielded a fairly large number of objects, more data on the lowest masses would be beneficial in studying these objects given the greater number of detected objects being on the higher end of mass. The data is lacking measurements on the lowest masses in particular due the faintness of these tiny sources and the limitations of our 0.9m telescope, thus better instrumentation would be ideal for 
