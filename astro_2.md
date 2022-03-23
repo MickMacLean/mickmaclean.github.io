@@ -18,7 +18,8 @@ The molecular cloud in the S140 region contains a high density of CH₃CCH in eq
 Data was taken from the core of the S140 gas cloud observing the J = 6 and J = 5 rotational transition of CH₃CCH at 4 different K-ladders (K = 0 to K = 1, K = 2, and K = 3 transitions), and was analyzed using the CLASS software package. I used a gaussian fit to find the intensities for 23 spectra via the four peaks in the data which correspond to each of the k-ladders. These intensities were used to find the ratios between the k-ladder transitions given the previous equations, and thus the temperature.
 
 <img src="images/radast.png" width=450>
-The above data visualization displays the emission specrum of intensity as a function of frequency (v2) where the four peaks are the kladder emissions. The Gaussian fit is (faintly) displayed in green to show the fit. This data is displayed within the CLASS software package.
+
+The above data visualization displays the emission specrum of intensity as a function of frequency (v2) where the four peaks are the k-ladder emissions. The Gaussian fit is (faintly) displayed in green to show the fit. This data is displayed within the CLASS software package.
 
 ### Results & Weighted Corrections
 Using a Gaussian fit, 70% of the data fit within one standard deviation. Data points that were discarded were replaced with the mean value of all other points, and the uncertainties were found similarly using the mean uncertainties. More accurately weighted values would be ideal, but it is difficult to perform these due to the nature of the data. However, the mean & median of the raw data are very similar, implying that outliers have not skewed our data even before error analysis. The average temperature of the cloud was determined to be 26.68 ± 5.84K where the uncertainty is one standard deviation. The known value given by the study,,,, is 30, which is within one standard deviation of my results.
