@@ -8,11 +8,10 @@ I performed an analysis of data taken during an observation run in 2006 using th
 
 ### Motivation
 Methyl Acetylene (CH₃CCH) is a non-linear molecule, needing more than one quantum number in order to describe its angular momentum; CH₃CCH happens to be a symmetric top molecule with 3-fold symmetry that allows its angular momentum to be described with two quantum numbers. The two quantum numbers measure each of the two moments of inertia for CH₃CCH, one of which being the total rotational angular momentum (J), and the other being the rotational angular momentum about the symmetry axis (K).
-When K = 0, the molecule will not be rotating about the symmetry axis at all and when K = J, all of the molecules rotational angular momentum will be about its symmetry axis.
 
 Electromagnetic radiation can not exert a torque on the molecule along its symmetry axis, and thus EM radiation can not affect the K quantum number. The value of K for the CH₃CCH molecule is only changed by collisions with other molecules, i.e. temperature. A population of CH₃CCH molecules with similar K values are in thermodynamic equilibrium and the population size is only determined by the temperature of the gas. By measuring the different intensities of a change in J for different K-ladders, the intensities can be compared and used to calculate the temperature of the gas cloud these molecules are found in.
 
-The molecular cloud in the S140 region contains a high density of CH₃CCH in equillibrium and by analyzing the intensities of moleculare emission lines, the temperature variations within the cloud can be determined and mapped.
+The molecular cloud in the S140 region contains a high density of CH₃CCH in equillibrium and by analyzing the intensities of molecular emission lines, the temperature variations within the cloud can be determined and mapped.
 
 ### The Data
 Data was taken from the core of the S140 gas cloud observing the J = 6 and J = 5 rotational transition of CH₃CCH at 4 different K-ladders (K = 0 to K = 1, K = 2, and K = 3 transitions), and was analyzed using the CLASS software package. I used a gaussian fit to find the intensities for 23 spectra via the four peaks in the data which correspond to each of the k-ladders. These intensities were used to find the ratios between the k-ladder transitions given the previous equations, and thus the temperature.
@@ -28,9 +27,8 @@ The raw data temperatures are mapped based on the coordinates from the original 
 <img src="images/rawavg.png" width=300>
 
 After replacing values we have the temperature map as follows:
-<p float="left">
-  <img src="images/avgtemp.png" width=222 />
-  <img src="images/avgtempu.png" width=222 />
-</p>
+
+<img src="images/avgtemp.png" width=222>
+<img src="images/avgtempu.png" width=222>
 
 The small concentration of warmer temperatures to the bottom left of the temperature map is consistent with a cloud core, a denser region of molecules within the cloud. 
