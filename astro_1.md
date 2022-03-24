@@ -6,14 +6,13 @@ In collaboration with the Astro341 research group at Amherst College, I was invl
 
 The invesigation of this particular topic was explored with my research partner [Savio Oliveira](https://www.linkedin.com/in/savio-oliveira-astro/); I will only be presenting code and writing samples that are my own unless otherwise specified.
  
-**Tools:** Jupyter/Python (pandas, numpy, matplotlib, photutils, astropy, scipy), Excel, Astrometry, SAOImageDS9 
-
-**Primary skills:** research, data cleaning, data pipeline development, data visualization, data analysis, data management
-
 **Research Blog:** I maintained a research blog throughout this project documenting my progress which you can find [here](https://mickmaclean.art.blog/) for more insight into my process.
 
 **Poster Presentation:** The final poster presentation (made in collaboration with my research partner) can be downloaded [here](https://github.com/MickMacLean/mickmaclean.github.io/files/8102648/341final_poster.pdf).
 
+**Tools:** Jupyter/Python (pandas, numpy, matplotlib, photutils, astropy, scipy), Excel, Astrometry, SAOImageDS9 
+
+**Primary skills:** research, data cleaning, data pipeline development, data visualization, data analysis, data management
 
 ### Motivation
 Young, low-mass stellar and substellar objects are among the most active and varied objects in the universe and can provide us with information on the early stages of both stellar evolution and planet formation. Clouds of gas and dust collapse under the gravitational pull of a newly formed stellar object, and debris collects and begins to orbit the object as it falls towards the objects surface. Instead of falling directly onto the star, this collected matter flattens and forms a disk around the object in order to preserve angular momentum. This is an *accretion disk*, and many young objects host them until they dissipate around 3Myrs after initial formation. These first few million years of a star’s life tell us how it's initial conditions affect the rest of its evolution as it approaches the main sequence.
@@ -37,7 +36,6 @@ Fig 1. Final reduced images of our two regions of space, Praesepe (left) and Tau
 When we take images of space, we must process the raw data prior to analysis. We also superimpose the processed images on top of each other to create a deeper image of our region, allowing us to see further into space and view fainter objects more accurately; hundreds of images will result in only a few data points, at least for our investigation into flux changes.The standard data reduction procedure in optical wavelengths involving bias subtraction, dark current subtraction, flatfielding, image alignment adjustments, and superimposment of images was performed in Python. The module with all of the functions I created and used is available to view <a href="pdf/Mickey.pdf">here</a>.
 
 ### Results
-
 #### Final Data Spread
 I successfully extracted relative flux data for 14 objects in Taurus and 19 in Praesepe ranging from M1.2 to K6, which is approximately 0.08 to 0.75 solar masses (Fig.2 Below).
 
@@ -59,9 +57,8 @@ An object in Praesepe displays flare activity captured over the course of our ob
 <img src="images/solarflare.png" width=480 />
 
 #### Mass (Spectral Type) vs. Disk Type
+For objects in Taurus, I plotted objects from least (no disk) to most (full disk) amount of debris surrounding and subsequently falling onto the surface of the object (external data from VisieR). A more complete disk leads to more accretion and thus more activity, as the range of activity is highest for objects likely to be actively accreting. Accretion is a sporadic process, and thus a range of flux changes is expected.
 <img src="images/disk_final.png" width=500>
 
-For objects in Taurus, I plotted objects from least (no disk) to most (full disk) amount of debris surrounding and subsequently falling onto the surface of the object (external data from VisieR). A more complete disk leads to more accretion and thus more activity, as the range of activity is highest for objects likely to be actively accreting. Accretion is a sporadic process, and thus a range of flux changes is expected.
-
 ### Further Research
-While the data set yielded a fairly large number of objects, more data on the lowest masses would be beneficial in studying these objects given the greater number of detected objects being on the higher end of mass. The data is lacking measurements on the lowest masses in particular due the faintness of these tiny sources and the limitations of our 0.9m telescope, thus better instrumentation would be ideal for 
+While the data set yielded a fair number of objects, gathering more data on objects of lower masses would be beneficial given that the data spread of object masses is skewed in favor of those with higher masses. This is primarily due to the faintness of these tiny sources and the limitations of our 0.9m telescope, and thus better instrumentation would be ideal for continued exploration of these Very Low Mass Objects and the trends in their properties. 
