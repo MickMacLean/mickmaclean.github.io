@@ -27,7 +27,7 @@ The data resulted in temperature estimates from each k-ladder calculation i.e. 3
 <img src="images/k0-2.png" width=300>
 <img src="images/k0-3.png" width=300>
 
-These temperatures were averaged for each point, resulting in one temperature map.
+These temperatures were averaged for each point, resulting in one average temperature map:
 
 <img src="images/rawavg.png" width=300>
 
