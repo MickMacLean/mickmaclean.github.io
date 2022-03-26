@@ -2,7 +2,7 @@
 
 **An investigation into photometric emissions of low-mass stellar objects via observational data from the WIYN 0.9m optical telescope in Kitt Peak, AZ.**
 
-In collaboration with the Astro341 research group at Amherst College, I was invloved in research in which we took photometric images in several wavelengths to provide us with data to study light curves produced by flux variations in Very Low-Mass Objects (VLMO). I analyzed the morphology of such curves and compared objects of different masses, ages, and disk types to deepen our understanding of how stellar and substellar objects in their earliest stages change over time.
+As a member of the Astro341 research group at Amherst College, I was invloved in taking and analyzing photometric images in several wavelengths, creating and studying light curves produced by flux variations in Very Low-Mass Objects (VLMO). I analyzed the morphology of such curves and compared objects of different masses, ages, and disk types to deepen our understanding of how stellar and substellar objects in their earliest stages change over time.
 
 The invesigation of this particular topic was explored with my research partner [Savio Oliveira](https://www.linkedin.com/in/savio-oliveira-astro/); I will only be presenting code and writing samples that are my own unless otherwise specified.
  
