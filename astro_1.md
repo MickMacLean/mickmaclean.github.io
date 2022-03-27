@@ -4,7 +4,7 @@
 
 As a member of the Astro341 research group at Amherst College, I was invloved in taking and analyzing photometric images in several wavelengths, creating and studying light curves produced by flux variations in Very Low-Mass Objects (VLMO). I analyzed the morphology of such curves and compared objects of different masses, ages, and disk types to deepen our understanding of how stellar and substellar objects in their earliest stages change over time.
 
-The invesigation of this particular topic was explored with my research partner [Savio Oliveira](https://www.linkedin.com/in/savio-oliveira-astro/); I will only be presenting code and writing samples that are my own unless otherwise specified.
+I explored this topic with my research partner [Savio Oliveira](https://www.linkedin.com/in/savio-oliveira-astro/); I will only be presenting code and writing samples that are my own unless otherwise specified.
  
 **Research Blog:** I maintained a research blog throughout this project documenting my progress which you can find [here](https://mickmaclean.art.blog/) for more insight into my process.
 
@@ -33,7 +33,7 @@ External data is also taken from the VisieR database in order to identify the kn
 Fig 1. Final reduced images of our two regions of space, Praesepe (left) and Taurus (right) in Hα.
 
 ### Data Reduction
-When we take images of space, we must process the raw data prior to analysis. We also superimpose the processed images on top of each other to create a deeper image of our region, allowing us to see further into space and view fainter objects more accurately; hundreds of images will result in only a few data points, at least for our investigation into flux changes.The standard data reduction procedure in optical wavelengths involving bias subtraction, dark current subtraction, flatfielding, image alignment adjustments, and superimposment of images was performed in Python. The module with all of the functions I created and used is available to view <a href="pdf/Mickey.pdf">here</a>.
+When we take images of space, we must process the raw data prior to analysis. We also superimpose the processed images on top of each other to create a deeper image of our region, allowing us to see further into space and view fainter objects more accurately; hundreds of images will result in only a few data points, at least for our investigation into flux changes. The standard data reduction procedure in optical wavelengths involving bias subtraction, dark current subtraction, flatfielding, image alignment adjustments, and superimposing of images was performed in Python. The module with all of the functions I developed and used is available to view <a href="pdf/Mickey.pdf">here</a>.
 
 ### Results
 #### Final Data Spread
