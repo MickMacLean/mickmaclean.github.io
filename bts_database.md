@@ -11,7 +11,7 @@ As an avid fan myself, I am interested in understanding their music lyrically an
 Construct a user-friendly website to display these data for fans to access and use for their own purposes.
 Want data in an easily comparable format, serve as an encyclopedia of information.
 
-**Tools:** SQL, Tableau Public, Excel
+**Tools:** SQL, Excel
 
 **Primary skills:** data collection, data management, databases, 
 
@@ -31,6 +31,11 @@ The data to be included for each song is as follows:
   - Performances, where and when
   - Streams, first week and current
   - Music video
+  
+ ### Structure
+ The overall focus of this data is with respect to the songs themselves, and as a result I have focused the structure of this database around the songs. This results in a lot of intermediary tables due to every category of data being a many to many relationship of each category to the songs. I am currently testing this structure with a small portion of the data
+ <img src="images/btsdata_schema.png" width=300>
+
   
 Much of this data must be collected manually as there is no central site which contains all of the data to be included. Data currently taken from Korea Music Copyright Assosiation (KOMCA), Genius, Hypable, and the official Spotify and YouTube of the band.
 Example dataset with information; one album of information is displayed below.
