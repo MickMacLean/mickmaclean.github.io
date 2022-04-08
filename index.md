@@ -11,13 +11,13 @@ An investigation into photometric emissions of low-mass stellar objects via obse
 ### [Radio Astronomy Data Analysis](/astro_2)
 Analysing data from the Five College Radio Astronomical Observatory (FCRAO) to determine temperature of S140 molecular cloud.
 
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+<img src="images/radast.png?raw=true"/>
 
 ---
 ### [BTS Database Project](/bts_database)
 An ongoing personal project to construct an encyclopedic database containing information on the 350+ songs in the discography of South Korean group BTS.
 
-<img src="images/bts-grammys.jpeg?raw=true"/>
+<img src="images/btsdata_schema.png?raw=true"/>
 
 
 
