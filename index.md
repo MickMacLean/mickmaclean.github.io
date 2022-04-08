@@ -11,7 +11,7 @@ An investigation into photometric emissions of low-mass stellar objects via obse
 ### [Radio Astronomy Data Analysis](/astro_2)
 Analysing data from the Five College Radio Astronomical Observatory (FCRAO) to determine temperature of S140 molecular cloud.
 
-<img src="images/radast.png?raw=true"/>
+<img src="images/radast_crop.png?raw=true"/>
 
 ---
 ### [BTS Database Project](/bts_database)
