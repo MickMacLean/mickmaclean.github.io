@@ -73,3 +73,5 @@ This is another subjective categorization which describes the overall motifs wit
 Many songs, especially title tracks, have been nominated for awards across several countries from the Melon Music Awards in Korea to the Grammies in the US.
 songs nominated for awards in several countries by different academies, whether the award was received 
  
+#### Performances
+I would like to know where and when each song has been performed live for fans on tours, concerts, award shows, and other events. There are many songs which have never been performed live and I want to be able to differentiate these, as well as see how often they perform certain songs. Sifting through nearly 10 years of information is going to take a while, so this category is on hold while I work on others.
