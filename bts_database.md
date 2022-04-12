@@ -7,9 +7,14 @@
 
 With over 350 songs, their discography presents a prime opportunity to collect and explore data and its trends further.
 
-As an avid fan myself, I am interested in understanding their music lyrically and emotionally, and as someone passionate about data, I'm interested in the analytics of their music. My main goal is to construct a database where I can store data in an easily comparable format to serve as an encyclopedia of information, as well as provide a simple way to compare the stats of each song, category, and query based on tags.
-Construct a user-friendly website to display these data for fans to access and use for their own purposes.
-Want data in an easily comparable format, serve as an encyclopedia of information.
+#### Project Goals
+As an avid fan interested in understanding their music lyrically and emotionally, and as someone interested in analytics, I decided to gather data and construct a database centered around their songs. My main goals are as follows:
+- construct a database to store data in an easily comparable format, serves as an encyclopedia of information
+- provide a simple way to compare the stats of each song, category, and query based on categories of interest
+
+Given the amount of data and the time this project will take to complete, longer term goals include:
+Longer-term, I would like to implement this database into a user-friendly website for fans to access and use for their own purposes.
+
 
 **Tools:** SQL, Excel
 
