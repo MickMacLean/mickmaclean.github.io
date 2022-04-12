@@ -46,11 +46,21 @@ The data to be included for each song is as follows:
 many songs have multiple titles depending on the language and translation chosen eg Baepsae can be called crow tit, try hard, silver spoon etc.
 Songs frequently appear on multiple albums.
 
+some songs have multiple remixes which change the overall genre of the original song, as well as having a different release date. Remixes don't have to be a table, could be fine within songs as I have the classification column? Then we could still sort by class to find all Remixes, or by title to find all Remixes of a song/ to see if a song has a remix 
+
+
+#### Albums
+There are 32 albums, x where the primary language is Korean, x Japanese, and 1 in English. There are many songs on each album, but there are also many repackaged and compilation albums which share songs between them.
+
 #### Writers, Producers, & Performers
 While the band has 7 members, not all are featured on every song; units such as rap-line and vocal-line, as well as other random groupings, solos, and separate artist features are common on most albums. 
 This table begins with the 7 members, then common features (usually from within the company), then external features. 
 
 The writers and producers overlap substantially (with the performers as well) so there is potential for turning these 3 into one table. However, the intermediary table would likely end up being very large with the possibility of 20 attributes per song, so for now they are separate tables.
+
+#### Choreographers 
+Many songs have choreography and i would like to credit those involved, but it is surprisingly difficult to find this information so it has been left out until I can find a reliable source.
+
 
 #### Genres
 While the whole of bts' discography, especially when considered in contexts with other artists, is classified as kpop and sometimes hip-hop, dance pop, etc., their music has a variety of influences that are important for me to distinguish. Thus categorization is a bit subjective and given my lack of music genre knowledge, I will be asking others for their input via social media.
