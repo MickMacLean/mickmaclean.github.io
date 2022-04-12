@@ -68,3 +68,8 @@ I could simplify this by having only one primary genre per song, but this wouldn
 
 #### Themes
 This is another subjective categorization which describes the overall motifs within each song. Songs will have more than one in general due to the complex themes and lyricism, as well as for ease of comparison.
+
+#### Awards
+Many songs, especially title tracks, have been nominated for awards across several countries from the Melon Music Awards in Korea to the Grammies in the US.
+songs nominated for awards in several countries by different academies, whether the award was received 
+ 
