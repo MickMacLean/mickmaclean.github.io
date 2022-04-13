@@ -31,6 +31,11 @@ Example dataset with information; one album of information is displayed below.
 
 The data to be included for each song is as follows:
 
+<details> 
+   <summary>#### Data </summary>
+Xyz
+</details>
+
 #### Songs
 many songs have multiple titles depending on the language and translation chosen eg Baepsae can be called crow tit, try hard, silver spoon etc.
 Songs frequently appear on multiple albums.
