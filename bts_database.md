@@ -32,19 +32,19 @@ Example dataset with information; one album of information is displayed below.
 The data to be included for each song is as follows:
 
 <details> 
-   <summary>#### Data </summary>
-Xyz
-</details>
+   <summary> Songs </summary>
 
-#### Songs
 many songs have multiple titles depending on the language and translation chosen eg Baepsae can be called crow tit, try hard, silver spoon etc.
 Songs frequently appear on multiple albums.
 
 some songs have multiple remixes which change the overall genre of the original song, as well as having a different release date. Remixes don't have to be a table, could be fine within songs as I have the classification column? Then we could still sort by class to find all Remixes, or by title to find all Remixes of a song/ to see if a song has a remix 
+</details>
 
+<details> 
+  <summary> Albums </summary>
 
-#### Albums
 There are 32 albums, x where the primary language is Korean, x Japanese, and 1 in English. There are many songs on each album, but there are also many repackaged and compilation albums which share songs between them.
+</details>
 
 #### Writers, Producers, & Performers
 While the band has 7 members, not all are featured on every song; units such as rap-line and vocal-line, as well as other random groupings, solos, and separate artist features are common on most albums. 
