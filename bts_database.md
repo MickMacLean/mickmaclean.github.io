@@ -12,7 +12,6 @@ As an avid fan interested in understanding their music lyrically and emotionally
 - construct a database to store data in an easily comparable format, serves as an encyclopedia of information
 - provide a simple way to compare the stats of each song, category, and query based on categories of interest
 
-Given the amount of data and the time this project will take to complete, longer term goals include:
 Longer-term, I would like to implement this database into a user-friendly website for fans to access and use for their own purposes.
 
 
@@ -21,10 +20,10 @@ Longer-term, I would like to implement this database into a user-friendly websit
 **Primary skills:** data collection, data management, databases, 
   
  ### Structure
- The overall focus of this data is with respect to the songs themselves, and as a result I have focused the structure of this database around the songs. This results in a lot of intermediary tables due to every category of data being a many to many relationship of each category to the songs. I am currently testing this structure with a small portion of the data
+ The overall focus of this data is information pertaining to the songs themselves, and as a result I have centered the structure of this database around songs. This results in a lot of intermediary tables due to every category of data being a many to many relationship with respect to the songs. I am currently testing this structure with a small portion of the data to ensure it results in a structure beneficial to my goals.
  <img src="images/btsdata_schema.png" width=300>
 
-This project is in its early stages of development.
+This project is in its early stages of development and changes to the structure, data types, etc. are likely to change.
 
 ### The Data
 Much of this data must be collected manually as there is no central site which contains all of the data to be included. Data currently taken from Korea Music Copyright Assosiation (KOMCA), Genius, Hypable, and the official Spotify and YouTube of the band.
