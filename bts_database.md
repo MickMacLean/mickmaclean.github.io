@@ -46,26 +46,42 @@ some songs have multiple remixes which change the overall genre of the original 
 There are 32 albums, x where the primary language is Korean, x Japanese, and 1 in English. There are many songs on each album, but there are also many repackaged and compilation albums which share songs between them.
 </details>
 
-#### Writers, Producers, & Performers
+<details> 
+   <summary> Writers, Producers, & Performers </summary>
+  
 While the band has 7 members, not all are featured on every song; units such as rap-line and vocal-line, as well as other random groupings, solos, and separate artist features are common on most albums. 
 This table begins with the 7 members, then common features (usually from within the company), then external features. 
 
 The writers and producers overlap substantially (with the performers as well) so there is potential for turning these 3 into one table. However, the intermediary table would likely end up being very large with the possibility of 20 attributes per song, so for now they are separate tables.
+</details>
 
-#### Choreographers 
+<details> 
+   <summary> Choreographers </summary> 
+  
 Many songs have choreography and i would like to credit those involved, but it is surprisingly difficult to find this information so it has been left out until I can find a reliable source.
+</details>
 
-
-#### Genres
+<details> 
+   <summary> Genres </summary> 
+  
 While the whole of bts' discography, especially when considered in contexts with other artists, is classified as kpop and sometimes hip-hop, dance pop, etc., their music has a variety of influences that are important for me to distinguish. Thus categorization is a bit subjective and given my lack of music genre knowledge, I will be asking others for their input via social media.
 I could simplify this by having only one primary genre per song, but this wouldn't encapsulate the variety of influences within BTS's music, and also wouldn't allow for accurate search results when looking for or comparing songs.
+</details>
 
-#### Themes
+<details> 
+   <summary> Themes </summary> 
+  
 This is another subjective categorization which describes the overall motifs within each song. Songs will have more than one in general due to the complex themes and lyricism, as well as for ease of comparison.
 
-#### Awards
+<details> 
+   <summary> Awards </summary> 
+  
 Many songs, especially title tracks, have been nominated for awards across several countries from the Melon Music Awards in Korea to the Grammies in the US.
 songs nominated for awards in several countries by different academies, whether the award was received 
+</details>
  
-#### Performances
+<details> 
+   <summary> Performances </summary> 
+  
 I would like to know where and when each song has been performed live for fans on tours, concerts, award shows, and other events. There are many songs which have never been performed live and I want to be able to differentiate these, as well as see how often they perform certain songs. Sifting through nearly 10 years of information is going to take a while, so this category is on hold while I work on others.
+</details>
