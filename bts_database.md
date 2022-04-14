@@ -5,31 +5,32 @@
 
 방탄소년단, Bangtan Sonyeondan, also known as BTS, is a South Korean boyband under Big Hit Entertainment whose extensive and diverse discography has garnered them a plethora of awards and millions of passionate fans dedicated to their socially-conscious music. 
 
-With over 350 songs, their discography presents a prime opportunity to collect and explore data and its trends further.
+With over 350 songs, their discography presents a prime opportunity to explore various data and its trends.
 
 #### Project Goals
-As an avid fan interested in understanding their music lyrically and emotionally, and as someone interested in analytics, I decided to gather data and construct a database centered around their songs. My main goals are as follows:
+As an avid fan interested in understanding their music lyrically and emotionally, and as someone interested in analytics, I decided to gather data and construct a database that contains information cateloging their entire discography: all BTS albums, singles, and solo projects not released under the band's name. My main goals are as follows:
 - construct a database to store data in an easily comparable format, serves as an encyclopedia of information
 - provide a simple way to compare the stats of each song, category, and query based on categories of interest
 
-Longer-term, I would like to implement this database into a user-friendly website for fans to access and use for their own purposes.
-
+Longer-term, I plan on implementing this database into a user-friendly website for fans to access and use for their own purposes.
 
 **Tools:** SQL, Excel
 
 **Primary skills:** data collection, data management, databases, 
   
  ### Structure
- The overall focus of this data is information pertaining to the songs themselves, and as a result I have centered the structure of this database around songs. This results in a lot of intermediary tables due to every category of data being a many to many relationship with respect to the songs. I am currently testing this structure with a small portion of the data to ensure it results in a structure beneficial to my goals.
+The overall focus of this data is information pertaining to the songs themselves, and as a result I have centered the structure of this database around songs. This results in a lot of intermediary tables, as every category of data invloves a many-to-many relationship with respect to the songs. 
+
  <img src="images/btsdata_schema.png" width=300>
 
-This project is in its early stages of development and changes to the structure, data types, etc. are likely to change.
+I am currently testing this structure with a small portion of the data to ensure it results in a structure beneficial to my goals.This project is in its early stages of development and changes to the structure, data types, etc. are likely.
 
 ### The Data
-Much of this data must be collected manually as there is no central site which contains all of the data to be included. Data currently taken from Korea Music Copyright Assosiation (KOMCA), Genius, Hypable, and the official Spotify and YouTube of the band.
-Example dataset with information; one album of information is displayed below.
+Much of this data must be collected manually as there is no central site containing all of the data to be included. Data currently taken from Korea Music Copyright Assosiation (KOMCA), Genius, and the official Spotify and YouTube of BTS.
 
-The data to be included for each song is as follows:
+
+
+The data categories to be included are as follows (click any category for further description):
 
 <details> 
    <summary> Songs </summary>
