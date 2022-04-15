@@ -21,7 +21,7 @@ Longer-term, I plan on implementing this database into a user-friendly website f
  ### Structure
 The overall focus of this data is information pertaining to the songs themselves, and as a result I have centered the structure of this database around songs. This results in a lot of intermediary tables, as every category of data invloves a many-to-many relationship with respect to the songs. 
 
- <img src="images/btsdata_schema.png" width=300>
+ <img src="images/btsdata_2.png" width=400>
 
 I am currently testing this structure with a small portion of the data to ensure it results in a structure beneficial to my goals. This project is in its early stages of development and changes to the structure, data types, etc. are likely.
 
@@ -35,14 +35,14 @@ The data categories to be included are as follows (click any category for furthe
 
 There are over 350 songs under BTS's name, including all original published singles and albums, remixes, and solo projects created by the members separate from BTS. 
 
-<img src="images/songs1.png" width=100>
+<img src="images/songs1.png" width=300>
   
 Many songs have multiple titles depending on the language and translation chosen; Baepsae for example, is often called crow-tit, try hard, or silver spoon. I will use the most common title and translations where necessary.
 Songs frequently appear on multiple albums.
 
 some songs have multiple remixes which change the overall genre of the original song, as well as having a different release date. Remixes don't have to be a table, could be fine within songs as I have the classification column? Then we could still sort by class to find all Remixes, or by title to find all Remixes of a song/ to see if a song has a remix 
   
-<img src="images/songs_test.png" width=200>
+<img src="images/songs_test.png" width=400>
 </details>
 
 <details> 
@@ -50,7 +50,7 @@ some songs have multiple remixes which change the overall genre of the original 
 
 There are 32 official albums created by BTS: 17 where the primary language is Korean, 14 in Japanese, and 1 in English. Repackaged and compilation albums are common within this discogrpahy, so songs are frequently shared between several albums.
   
-<img src="images/albums_test.png" width=200>
+<img src="images/albums_test.png" width=400>
 </details>
 
 <details> 
