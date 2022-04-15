@@ -74,6 +74,7 @@ I could simplify this by having only one primary genre per song, but this wouldn
    <summary> Themes </summary> 
   
 This is another subjective categorization which describes the overall motifs within each song. Songs will have more than one in general due to the complex themes and lyricism, as well as for ease of comparison.
+</details>
 
 <details> 
    <summary> Awards </summary> 
