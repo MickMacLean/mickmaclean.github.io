@@ -23,33 +23,38 @@ The overall focus of this data is information pertaining to the songs themselves
 
  <img src="images/btsdata_schema.png" width=300>
 
-I am currently testing this structure with a small portion of the data to ensure it results in a structure beneficial to my goals.This project is in its early stages of development and changes to the structure, data types, etc. are likely.
+I am currently testing this structure with a small portion of the data to ensure it results in a structure beneficial to my goals. This project is in its early stages of development and changes to the structure, data types, etc. are likely.
 
 ### The Data
 Much of this data must be collected manually as there is no central site containing all of the data to be included. Data currently taken from Korea Music Copyright Assosiation (KOMCA), Genius, and the official Spotify and YouTube of BTS.
-
-
 
 The data categories to be included are as follows (click any category for further description):
 
 <details> 
    <summary> Songs </summary>
 
-There are over 350 songs under BTSs name, including solo songs created separate from the BTS name.
+There are over 350 songs under BTS's name, including all original published singles and albums, remixes, and solo projects created by the members separate from BTS. 
+
+<img src="images/songs1.png" width=100>
+  
 Many songs have multiple titles depending on the language and translation chosen; Baepsae for example, is often called crow-tit, try hard, or silver spoon. I will use the most common title and translations where necessary.
 Songs frequently appear on multiple albums.
 
 some songs have multiple remixes which change the overall genre of the original song, as well as having a different release date. Remixes don't have to be a table, could be fine within songs as I have the classification column? Then we could still sort by class to find all Remixes, or by title to find all Remixes of a song/ to see if a song has a remix 
+  
+<img src="images/songs_test.png" width=200>
 </details>
 
 <details> 
   <summary> Albums </summary>
 
-There are 32 albums, x where the primary language is Korean, x Japanese, and 1 in English. There are many songs on each album, but there are also many repackaged and compilation albums which share songs between them.
+There are 32 official albums created by BTS: 17 where the primary language is Korean, 14 in Japanese, and 1 in English. Repackaged and compilation albums are common within this discogrpahy, so songs are frequently shared between several albums.
+  
+<img src="images/albums_test.png" width=200>
 </details>
 
 <details> 
-   <summary> Writers, Producers, & Performers </summary>
+   <summary> Performers, Writers, & Producers </summary>
   
 While the band has 7 members, not all are featured on every song; units such as rap-line and vocal-line, as well as other random groupings, solos, and separate artist features are common on most albums. 
 This table begins with the 7 members, then common features (usually from within the company), then external features. 
