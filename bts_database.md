@@ -35,7 +35,8 @@ The data categories to be included are as follows (click any category for furthe
 <details> 
    <summary> Songs </summary>
 
-many songs have multiple titles depending on the language and translation chosen eg Baepsae can be called crow tit, try hard, silver spoon etc.
+There are over 350 songs under BTSs name, including solo songs created separate from the BTS name.
+Many songs have multiple titles depending on the language and translation chosen; Baepsae for example, is often called crow-tit, try hard, or silver spoon. I will use the most common title and translations where necessary.
 Songs frequently appear on multiple albums.
 
 some songs have multiple remixes which change the overall genre of the original song, as well as having a different release date. Remixes don't have to be a table, could be fine within songs as I have the classification column? Then we could still sort by class to find all Remixes, or by title to find all Remixes of a song/ to see if a song has a remix 
