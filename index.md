@@ -17,7 +17,7 @@ Analysing data from the Five College Radio Astronomical Observatory (FCRAO) to d
 ### [BTS Database Project](/bts_database)
 An ongoing personal project to construct an encyclopedic database containing information on the 350+ songs in the discography of South Korean group BTS.
 
-<img src="images/btsdata_schema.png?raw=true"/>
+<img src="images/btsdata_2.png?raw=true"/>
 
 
 
