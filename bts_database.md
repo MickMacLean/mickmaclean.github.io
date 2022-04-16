@@ -40,8 +40,8 @@ There are over 350 songs under BTS's name, including all original published sing
 Many songs have multiple titles depending on the language and translation chosen; Baepsae for example, is often called crow-tit, try hard, or silver spoon. I will use the most common title and translations where necessary, but I may add a table for alternate titles in the future.
 Songs frequently appear on multiple albums (and albums contain multiple songs, of course) so a many to many relationship is required between songs and albums.
 
-Some songs have a remix (or several) which changes the overall genre of the original song, as well as having a different release date. Remixes don't have to be a table, could be fine within songs as I have the classification column? Then we could still sort by class to find all Remixes, or by title to find all Remixes of a song/ to see if a song has a remix 
-The "class" column is a classification where there are three potential types of tracks: song (a traditional original song), skit (a spoken word track, usually featuring a conversation between the members), and remix (a remix of an original song).
+Some songs have a remix (or several) which changes the overall genre of the original song, as well as having a different release date. I considered making remixes their own separate table with another many to many relationship, but I decided to use a classification column within songs instead. Then I could still sort by class to find all remixes, or by title to find all remixes of a song/to see if a song has a remix.
+The "class" column this classification where there are three potential types of tracks: song (a traditional original song), skit (a spoken word track, usually featuring a conversation between the members), and remix (a remix of an original song).
 
 <img src="images/songs_test.png" width=400>
 </details>
