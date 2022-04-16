@@ -43,13 +43,16 @@ Songs frequently appear on multiple albums (and albums contain multiple songs, o
 Some songs have a remix (or several) which changes the overall genre of the original song, as well as having a different release date. I considered making remixes their own separate table with another many to many relationship, but I decided to use a classification column within songs instead. Then I could still sort by class to find all remixes, or by title to find all remixes of a song/to see if a song has a remix.
 The "class" column this classification where there are three potential types of tracks: song (a traditional original song), skit (a spoken word track, usually featuring a conversation between the members), and remix (a remix of an original song).
 
+
+The small portion of data I am currently working with spans two albums, Skool Luv Affair and Skool Luv Affair: Special Addition, choosen due to their overlap and feature of both a skit and remix, can be seen below.
 <img src="images/songs_test.png" width=400>
 </details>
 
 <details> 
   <summary> Albums </summary>
 
-There are 32 official albums created by BTS: 17 where the primary language is Korean, 14 in Japanese, and 1 in English. Repackaged and compilation albums are common within this discogrpahy, so songs are frequently shared between several albums.
+There are 32 official albums created by BTS: 17 where the primary language is Korean, 14 in Japanese, and 1 in English. Non-BTS albums to be included are not yet on this table.
+Repackaged and compilation albums are common within this discogrpahy, so songs are frequently shared between several albums.
   
 <img src="images/albums_test.png" width=400>
 </details>
