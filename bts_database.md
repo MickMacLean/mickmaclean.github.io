@@ -21,7 +21,7 @@ Longer-term, I plan on implementing this database into a user-friendly website f
 ### Structure
 The overall focus of this data is information pertaining to the songs themselves, and as a result I have centered the structure of this database around songs. This results in a lot of intermediary tables, as every category of data invloves a many-to-many relationship with respect to the songs. 
 
- <img src="images/btsdata_2.png" width=500>
+ <img src="images/btsdata.png" width=500>
 
 I am currently testing this structure with a small portion of the data to ensure it results in a structure beneficial to my goals. This project is in its early stages of development and changes to the structure, data types, etc. are likely.
 
