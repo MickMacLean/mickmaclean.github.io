@@ -33,7 +33,7 @@ The data categories to be included are as follows (click any category for furthe
 <details> 
    <summary> Songs </summary>
 
-There are over 350 songs under BTS's name, including all original published singles and albums, remixes, and solo projects created by the members separate from BTS. 
+There are over 350 songs to be included in this database, taking into consideration all original published singles and albums, remixes, and solo projects created by the members outside of BTS. 
 
 <img src="images/songs1.png" width=200>
   
