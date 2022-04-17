@@ -50,7 +50,7 @@ Some songs have a remix (or several) which changes the overall genre of the orig
 
 The small portion of data I am currently working with spans two albums, Skool Luv Affair and Skool Luv Affair: Special Addition, choosen due to their overlap and feature of both a skit and remix, can be seen below.
 <br>
-<img src="images/songs_test.png" width=400>
+<img src="images/songsbts.png" width=400>
 
 </details>
 
