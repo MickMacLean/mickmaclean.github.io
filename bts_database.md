@@ -18,7 +18,7 @@ Longer-term, I plan on implementing this database into a user-friendly website f
 
 **Primary skills:** data collection, data management, databases, 
   
- ### Structure
+### Structure
 The overall focus of this data is information pertaining to the songs themselves, and as a result I have centered the structure of this database around songs. This results in a lot of intermediary tables, as every category of data invloves a many-to-many relationship with respect to the songs. 
 
  <img src="images/btsdata_2.png" width=500>
