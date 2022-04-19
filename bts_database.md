@@ -33,7 +33,7 @@ The data categories to be included are as follows (click any category for furthe
 <details> 
    <summary> Songs </summary>
 
-There are over 350 songs to be included in this database, taking into consideration all original published singles and albums, remixes, and solo projects created by the members outside of BTS. This table contains has the columns title, alternate title, release date, and class.
+There are over 350 songs to be included in this database, taking into consideration all original published singles and albums, remixes, and solo projects created by the members outside of BTS. This table contains the columns title, alternate title, release date, and class.
 
 <br> 
   
@@ -60,7 +60,7 @@ Songs frequently appear on multiple albums (and albums contain multiple songs, o
 <details> 
   <summary> Albums </summary>
 
-There are 32 official albums created by BTS: 17 where the primary language is Korean, 14 in Japanese, and 1 in English. Non-BTS albums to be included are not yet on this table. 
+This table contains the columns title, release date, and language. There are 32 official albums created by BTS: 17 where the primary language is Korean, 14 in Japanese, and 1 in English. Non-BTS albums to be included are not yet on this table. 
   
   <br>
   
@@ -74,23 +74,29 @@ Current album list:
 <details> 
    <summary> Performers, Writers, & Producers </summary>
   
-While the band has 7 members, not all are featured on every song; units such as rap-line and vocal-line, as well as other random groupings, solos, and separate artist features are common on most albums. 
-This table begins with the 7 members, then common features (usually from within the company), then external features. 
+These are three separate tables which contain the names of the performers, writers, and producers who worked on each song.
 
-The writers and producers overlap substantially (with the performers as well) so there is potential for turning these 3 into one table. However, the intermediary table would likely end up being very large with the possibility of 20 attributes per song, so for now they are separate tables.
+  <br>
+  
+  While the band has 7 members, not all are featured on every song; units such as the rap-line and vocal-line, as well as other random groupings, solos, and separate artist features are common on most albums. This 'Performers' table lists with the 7 members, then artists commonly featured (usually people from within the company), then external features or artists not commonly featured on these albums. 
+
+  <br>
+  
+The writers and producers overlap substantially (with the performers, too) so there is potential for turning these three into one table. However, the intermediary table would likely end up being large with the possibility of 20 attributes per song, so for now I have opted to keep them as separate tables.
 </details>
 
 <details> 
    <summary> Choreographers </summary> 
   
-Many songs have choreography and i would like to credit those involved, but it is surprisingly difficult to find this information so it has been left out until I can find a reliable source.
+Many songs, particularly title tracks, have choreography and I would like to credit those involved, but it is surprisingly difficult to find this information from a reliable source (if at all). I have decided to leave this information out until a reliable source can be found, but it is still data I would like to eventually pursue.
 </details>
 
 <details> 
    <summary> Genres </summary> 
   
-While the whole of bts' discography, especially when considered in contexts with other artists, is classified as kpop and sometimes hip-hop, dance pop, etc., their music has a variety of influences that are important for me to distinguish. Thus categorization is a bit subjective and given my lack of music genre knowledge, I will be asking others for their input via social media.
-I could simplify this by having only one primary genre per song, but this wouldn't encapsulate the variety of influences within BTS's music, and also wouldn't allow for accurate search results when looking for or comparing songs.
+While the whole of BTS's discography, especially when considered in contexts with other artists, is classified as 'KPOP' with secondary genres like 'hip-hop' or 'dance pop', their music has a variety of influences that are important to distinguish when we consider BTS as their own entity. I could simplify the relationships by having only one primary genre per song, but this wouldn't encapsulate the diversity within BTS's music, and also wouldn't allow for accuracy when comparing songs. 
+<br>
+This categorization is a bit subjective but I will be thoroughly researching to make in-depth analysis of each song, and will be asking others for their input via social media.
 </details>
 
 <details> 
@@ -102,14 +108,14 @@ This is another subjective categorization which describes the overall motifs wit
 <details> 
    <summary> Awards </summary> 
   
-Many songs, especially title tracks, have been nominated for awards across several countries from the Melon Music Awards in Korea to the Grammies in the US.
-songs nominated for awards in several countries by different academies, whether the award was received 
+Many songs have been nominated for awards across several countries, spanning from the Melon Music Awards in South Korea to the Grammy Awards in the United States.
+This table includes the columns 'name' for the name of the award, 'country', 'award year', and 'received' to confirm whether the award was received or not.
 </details>
  
 <details> 
    <summary> Performances </summary> 
   
-I would like to know where and when each song has been performed live for fans on tours, concerts, award shows, and other events. There are many songs which have never been performed live and I want to be able to differentiate these, as well as see how often they perform certain songs. Sifting through nearly 10 years of information is going to take a while, so this category is on hold while I work on others.
+I would like to know where and when each song has been performed live for fans on tours, concerts, award shows, and other events. There are many songs which have never been performed live and I want to be able to differentiate these, as well as see how often they perform certain songs. Sifting through nearly 10 years of information is going to take a while, so this category is on hold while I work on the more directly available data.
 </details>
 
 <br>
