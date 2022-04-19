@@ -16,7 +16,7 @@ Longer-term, I plan on implementing this database into a user-friendly website f
 
 **Tools:** SQL, Excel
 
-**Primary skills:** data collection, data management, databases, 
+**Primary skills:** data collection, data management, databases development & management 
   
 ### Structure
 The overall focus of this data is information pertaining to the songs themselves, and as a result I have centered the structure of this database around songs. This results in a lot of intermediary tables, as every category of data invloves a many-to-many relationship with respect to the songs. 
@@ -49,7 +49,7 @@ Current songlist:
   
 <br>
   
-<img src="images/songsbts.png" width=400>
+<img src="images/songsbts.png" width=500>
   
 <br>
 
@@ -68,7 +68,7 @@ Current album list:
   
   <br>
   
-<img src="images/albums_test.png" width=400>
+<img src="images/albums_test.png" width=500>
 </details>
 
 <details> 
@@ -112,6 +112,15 @@ songs nominated for awards in several countries by different academies, whether 
 I would like to know where and when each song has been performed live for fans on tours, concerts, award shows, and other events. There are many songs which have never been performed live and I want to be able to differentiate these, as well as see how often they perform certain songs. Sifting through nearly 10 years of information is going to take a while, so this category is on hold while I work on others.
 </details>
 
+<br>
+
 The small portion of data I am currently working with spans two albums, Skool Luv Affair and Skool Luv Affair: Special Addition, choosen due to their overlap and feature of both a skit and remix, can be seen below.
 
-<img src="images/songsbts.png" width=400>
+**Current song list:**
+
+<img src="images/songsbts.png" width=500>
+
+**Current album list:**
+
+<img src="images/albums_test.png" width=500>
+
