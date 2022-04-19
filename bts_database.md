@@ -21,7 +21,7 @@ Longer-term, I plan on implementing this database into a user-friendly website f
 ### Structure
 The overall focus of this data is information pertaining to the songs themselves, and as a result I have centered the structure of this database around songs. This results in a lot of intermediary tables, as every category of data invloves a many-to-many relationship with respect to the songs. 
 
- <img src="images/btsdata.png" width=500>
+ <img src="images/btsdata.png" width=600>
 
 I am currently testing this structure with a small portion of the data to ensure it results in a structure beneficial to my goals. This project is in its early stages of development and changes to the structure, data types, etc. are likely.
 
@@ -33,32 +33,40 @@ The data categories to be included are as follows (click any category for furthe
 <details> 
    <summary> Songs </summary>
 
-There are over 350 songs to be included in this database, taking into consideration all original published singles and albums, remixes, and solo projects created by the members outside of BTS. 
+There are over 350 songs to be included in this database, taking into consideration all original published singles and albums, remixes, and solo projects created by the members outside of BTS. This table contains has the columns title, alternate title, release date, and class.
 
-<img src="images/songs1.png" width=200>
-  
 <br> 
   
 Many songs have multiple titles depending on the language and translation; the song "뱁새" ("Baepsae") for example, can also be called "Crow-Tit", "Try-Hard", or "Silver Spoon" due to the many translations and transliterations of the Korean title. I will use the most common title and translations where necessary, but I may add a table for alternate titles in the future.
-Songs frequently appear on multiple albums (and albums contain multiple songs, of course) so a many to many relationship is required between songs and albums.
 
 <br>
   
 Some songs have a remix (or several) which changes the overall genre of the original song, as well as having a different release date. I considered making remixes their own separate table with another many to many relationship, but I decided to use a classification column within songs instead. Then I can still sort by class to find all remixes, or by title to find all remixes of a song/to see if a song has a remix. The "class" column is this classification where there are three potential types of tracks: song (a traditional original song), skit (a spoken word track, usually featuring a conversation between the members), and remix (a remix of an original song).
   
 <br>
-
-The small portion of data I am currently working with spans two albums, Skool Luv Affair and Skool Luv Affair: Special Addition, choosen due to their overlap and feature of both a skit and remix, can be seen below.
+  
+Current songlist:
+  
 <br>
+  
 <img src="images/songsbts.png" width=400>
+  
+<br>
+
+Songs frequently appear on multiple albums (and albums contain multiple songs, of course) so a many-to-many relationship is required between songs and albums.
 
 </details>
 
 <details> 
   <summary> Albums </summary>
 
-There are 32 official albums created by BTS: 17 where the primary language is Korean, 14 in Japanese, and 1 in English. Non-BTS albums to be included are not yet on this table.
-Repackaged and compilation albums are common within this discogrpahy, so songs are frequently shared between several albums.
+There are 32 official albums created by BTS: 17 where the primary language is Korean, 14 in Japanese, and 1 in English. Non-BTS albums to be included are not yet on this table. 
+  
+  <br>
+  
+Current album list:
+  
+  <br>
   
 <img src="images/albums_test.png" width=400>
 </details>
@@ -103,3 +111,7 @@ songs nominated for awards in several countries by different academies, whether 
   
 I would like to know where and when each song has been performed live for fans on tours, concerts, award shows, and other events. There are many songs which have never been performed live and I want to be able to differentiate these, as well as see how often they perform certain songs. Sifting through nearly 10 years of information is going to take a while, so this category is on hold while I work on others.
 </details>
+
+The small portion of data I am currently working with spans two albums, Skool Luv Affair and Skool Luv Affair: Special Addition, choosen due to their overlap and feature of both a skit and remix, can be seen below.
+
+<img src="images/songsbts.png" width=400>
